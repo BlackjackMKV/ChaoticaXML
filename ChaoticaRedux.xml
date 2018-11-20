@@ -45,7 +45,7 @@
 				<authors>AlgorithmX2</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/nzbons88br5mjrl/AppliedEnergistics2.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/AppliedEnergistics2.cfg</URL>
 				<Path>config/AppliedEnergistics2/AppliedEnergistics2.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>288215c27baf7dde9b2dd5b274063414</MD5>
@@ -142,7 +142,7 @@
 				<authors>Joseph &apos;Nuchaz&apos; Sinclair</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/a4zuavy60dhathp/bibliocraft.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/bibliocraft.cfg</URL>
 				<Path>config/bibliocraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a73bb3430433be4ac927fe80b318167d</MD5>
@@ -204,7 +204,7 @@
 				<authors>lumien</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/bw8h89iqk7ld5rz/bloodmoon.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/bloodmoon.cfg</URL>
 				<Path>config/bloodmoon.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2dd7106bcf1c257aa034ce730dd08d3d</MD5>
@@ -225,7 +225,7 @@
 			</Meta>
 		</Module>
 		<Module name="Brandon&apos;s Core" id="brandonscore" depends="" side="BOTH">
-			<URL priority="0">https://runicpony.enjin.com//mods/BrandonsCore-1.12.2-2.4.5.176-universal.jar</URL>
+			<URL priority="0">https://addons.cursecdn.com/files/2619/369/BrandonsCore-1.12.2-2.4.5.176-universal.jar</URL>
 			<Size>887024</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -252,38 +252,14 @@
 				<authors>Turkey2349</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/xg512ailq89uj14/chancecubes.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/chancecubes.cfg</URL>
 				<Path>config/ChanceCubes/chancecubes.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0987e29118d50b6dcf8c272bf196da26</MD5>
 			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/v7w8kz6kv5kdpfn/CustomSounds-Resourcepack.zip?dl=1</URL>
-				<Path>config/ChanceCubes/CustomRewards/CustomSounds-Resourcepack.zip</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>7f1a847485218aaa6b6f880c0dec4947</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/8ksv1ceydh1xwfn/CustomSounds-Resourcepack.zip?dl=1</URL>
-				<Path>config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>2b0cdc226f790c302cf4fa6d43b3d72a</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/xslx3eeyn84qmi6/readme.txt?dl=1</URL>
-				<Path>config/ChanceCubes/CustomRewards/Resourcepack/readme.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>7079a2f00600a3f03f02968660766bef</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/2pmg9wedg7h8fjv/sounds.json?dl=1</URL>
-				<Path>config/ChanceCubes/CustomRewards/Sounds/sounds.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>99914b932bd37a50b983c5e7c90ae93b</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="ChaoticAdditions" id="ca" depends="" side="BOTH">
-			<URL priority="0">https://www.dropbox.com/s/3zmj2h5sioklhud/ca-1.01.jar?dl=1</URL>
+			<URL priority="0">https://github.com/BlackjackMKV/ChaoticaXML/blob/master/ca-1.01.jar?raw=true</URL>
 			<Size>27837</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -324,19 +300,19 @@
 				<authors>SetyCz, Wyvi, GenDeathrow, LordCazsius</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/80dsx9tvymewwnj/chickens.json?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/chickens.json</URL>
 				<Path>config/chickens/chickens.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>21e40d9df43974dd0b1b39fca0739df9</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/g3rmiety43dqhf1/main_chickens.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/main_chickens.cfg</URL>
 				<Path>config/chickens/main_chickens.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6abeb027ba85e750a17d7bf90f168bf9</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/wunswfrdv27jegu/morechickens.json?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/morechickens.json</URL>
 				<Path>config/chickens/morechickens.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3dcd733125d2a56350f9342bc1bf2fab</MD5>
@@ -485,7 +461,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>Noppes</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/dzw6wdcobvtcck7/CustomNpcs.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/CustomNpcs.cfg</URL>
 				<Path>config/CustomNpcs.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>474018dd20013b680a6f2911a9d7d0b1</MD5>
@@ -548,7 +524,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Dragon Mounts" id="dragonmounts" depends="" side="BOTH">
-			<URL priority="0">https://www.dropbox.com/s/6o0nrs4c513y3sq/DragonMounts-1.12-1.4.7.jar?dl=1</URL>
+			<URL priority="0">https://github.com/BlackjackMKV/ChaoticaXML/blob/master/DragonMounts-1.12-1.4.7.jar?raw=true</URL>
 			<Size>3110432</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -567,7 +543,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
   TheRPGAdventurer</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/fpzs1jt51kzqw0m/dragonmounts.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/dragonmounts.cfg</URL>
 				<Path>config/dragonmounts.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1bfcd84f1df5eda4f2f93fa9c1a61334</MD5>
@@ -657,7 +633,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/qq7flbpa3v9dtul/everlastingabilities.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/everlastingabilities.cfg</URL>
 				<Path>config/everlastingabilities.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0b7c66a9667ba4b22cc89930b3bdff25</MD5>
@@ -971,7 +947,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>McJty</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/zuvtjfrbe3i7b9t/lostsouls.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/lostsouls.cfg</URL>
 				<Path>config/lostsouls.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>dc8115a12cd466b1b45e28c5c6c58bf7</MD5>
@@ -1248,7 +1224,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>dshadowwolf, iLexiconn, jriwanek, DrCyano</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/9c8a1au4a9rxuvw/orespawn.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/orespawn.cfg</URL>
 				<Path>config/orespawn.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>666382029a00785d8f2b7a08d61621c9</MD5>
@@ -1422,7 +1398,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>Vazkii</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/90hip5chsdntx06/psi.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/psi.cfg</URL>
 				<Path>config/psi.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>853089689a1a5f69e742c713f696f2ee</MD5>
@@ -1540,7 +1516,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>Dom Amato</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/pzt39ciwi4c7x8w/schematics.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/schematics.cfg</URL>
 				<Path>config/schematics.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2001f0b8d08b43eed64e943397ff37d8</MD5>
@@ -1602,19 +1578,19 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>Frinn</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/bxi4pxiceof8et8/Biomes.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/Biomes.cfg</URL>
 				<Path>config/skylands/Biomes.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>41dde4b6fbc8a96a8f785a518ba0ef03</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/n485qklrk7udzh1/General.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/General.cfg</URL>
 				<Path>config/skylands/General.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ce84e4bbc7ff164278d263309689de7f</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/vqvqphv9h32n01o/Ores.cfg?dl=1</URL>
+				<URL priority="0">https://github.com/BlackjackMKV/ChaoticaXML/blob/master/ores.cfg</URL>
 				<Path>config/skylands/Ores.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>aefb5f54603b1131dd34bfe5c6645859</MD5>
@@ -1861,13 +1837,13 @@ All the users of UniDict.</credits>
 				<authors>pau101</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/2jkbhlcprp45l71/items.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/items.cfg</URL>
 				<Path>config/wings/items.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>8a7b531ebdc98afb2378b5a3b3bbf9f3</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://www.dropbox.com/s/dkp1hl8kczhswsn/ores.cfg?dl=1</URL>
+				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/ores.cfg</URL>
 				<Path>config/wings/ores.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2f51d704582894b68853633f9d67a74e</MD5>
