@@ -765,34 +765,6 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>ChickenBones</authors>
 			</Meta>
 		</Module>
-		<Module name="FTB Utilities" id="ftbutilities" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/ftb-utilities/files/2634405/download</URL>
-			<Size>423926</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>5d1619e61897ec1537703ba4f501e520</MD5>
-			<Meta>
-				<description></description>
-				<credits></credits>
-				<version>5.3.0.53</version>
-				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
-				<authors>LatvianModder</authors>
-			</Meta>
-		</Module>
-		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/ftblib/files/2634401/download</URL>
-			<Size>876047</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>250f587685af4b7cd34d8e3c844c59bd</MD5>
-			<Meta>
-				<description></description>
-				<credits></credits>
-				<version>5.3.1.57</version>
-				<url>http://minecraft.curseforge.com/projects/ftblib</url>
-				<authors>LatvianModder</authors>
-			</Meta>
-		</Module>
 		<Module name="Guide-API" id="guideapi" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/guide-api/files/2583886/download</URL>
 			<Size>168974</Size>
@@ -1861,6 +1833,76 @@ All the users of UniDict.</credits>
 				<version>2.1.2-mf-1.12-14.21.1.2387</version>
 				<url>https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2</url>
 				<authors>Hexosse</authors>
+			</Meta>
+		</Module>
+		<Module name="Modern Warfare" id="mw" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/vics-modern-warfare-mod/files/2605335/download</URL>
+			<Size>86781489</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>359e12a0b15abbbfabbda52811734a0b</MD5>
+			<Meta>
+				<credits>Vic4Games</credits>
+				<description>Modern Warfare Mod</description>
+				<version>1.11.7.7</version>
+				<url></url>
+				<authors>Vic4Games</authors>
+			</Meta>
+		</Module>
+		<Module name="Engineer&apos;s Workshop" id="engineersworkshop" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/engineers-workshop/files/2512032/download</URL>
+			<Size>281338</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6039dc9cf1775ceb292cc09707a479c7</MD5>
+			<Meta>
+				<credits>VSWE for original mod Steve&apos;s Workshop back in 1.7.2</credits>
+				<description>Adds a modular crafting station!</description>
+				<version>1.4.0-1.12.2</version>
+				<url>https://minecraft.curseforge.com/projects/engineers-workshop</url>
+				<authors>EwyBoy&quot;, JorVa, Modmuss50, Vswe</authors>
+			</Meta>
+		</Module>
+		<Module name="TorchMaster" id="torchmaster" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/torchmaster/files/2560361/download</URL>
+			<Size>135021</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a6fa50d23c6d4ebc629404ceabb633fc</MD5>
+			<Meta>
+				<credits>The Forge and FML guys for creating forge, RWTema for the &apos;Magnum Torch&apos; idea</credits>
+				<description>Adds a special torch which prevents mobs from spawning in a configurable range</description>
+				<version>1.6.4.62</version>
+				<url></url>
+				<authors>xalcon</authors>
+			</Meta>
+		</Module>
+		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ftblib/files/2639297/download</URL>
+			<Size>879619</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f60b9ff6a198db2cac2e7d62005e30fe</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.3.1.59</version>
+				<url>http://minecraft.curseforge.com/projects/ftblib</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
+		<Module name="FTB Utilities" id="ftbutilities" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ftb-utilities/files/2639300/download</URL>
+			<Size>423722</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9d3c177d8e7cd203f23cf880c68ad032</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.3.0.54</version>
+				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
+				<authors>LatvianModder</authors>
 			</Meta>
 		</Module>
 	</Server>
