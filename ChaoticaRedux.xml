@@ -1,0 +1,1891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://files.mcupdater.com/official_packs/ServerPackv2.xsl" type="text/xsl" ?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2765">forge</Import>
+		<Module name="AE2 Stuff" id="ae2stuff" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download</URL>
+			<Size>513374</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8594b7501c1ecc1bdaaa8ef42b7dbdda</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>0.7.0.4</version>
+				<url>bdew.net</url>
+				<authors>bdew</authors>
+			</Meta>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/appleskin/download/2496585/file</URL>
+			<Size>32317</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds various food-related HUD improvements</description>
+				<version>1.0.9</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+		</Module>
+		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/applied-energistics-2/files/2543840/download</URL>
+			<Size>3570947</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f22759d4dcdc8aec7811d457367e106a</MD5>
+			<Meta>
+				<credits>AlgorithmX2</credits>
+				<description>A Mod about Matter, Energy and using them to conquer the world..</description>
+				<version>rv5-stable-11</version>
+				<url>http://ae2.ae-mod.info</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/nzbons88br5mjrl/AppliedEnergistics2.cfg?dl=1</URL>
+				<Path>config/AppliedEnergistics2/AppliedEnergistics2.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>288215c27baf7dde9b2dd5b274063414</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Astral Sorcery" id="astralsorcery" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/astral-sorcery/download/2591271/file</URL>
+			<Size>21377922</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c3cafc7d58e8b2c4e63c549a18c836d0</MD5>
+			<Meta>
+				<credits>HellFirePvP (code), wiiv (models &amp; textures)</credits>
+				<description>Magic mod that draws power from stars and their constellations</description>
+				<version>1.12.2-1.9.4</version>
+				<url>https://minecraft.curseforge.com/projects/astral-sorcery</url>
+				<authors>HellFirePvP, wiiv</authors>
+			</Meta>
+		</Module>
+		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/autoreglib/files/2605109/download</URL>
+			<Size>97062</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ccc9194e20d4339cc7dc42c895dde347</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Automatically item, block, and model registration for mods.</description>
+				<version>1.3-20</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Baubles" id="baubles" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/baubles/files/2518667/download</URL>
+			<Size>108450</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>944dec4ef3fbfd4d498d94a7047af201</MD5>
+			<Meta>
+				<credits>Special thanks to chicken_bones</credits>
+				<description>Adding a touch of bling to Minecraft</description>
+				<version>1.12-1.5.2</version>
+				<url>http://www.minecraftforum.net/topic/2535073-baubles</url>
+				<authors>Azanor</authors>
+			</Meta>
+		</Module>
+		<Module name="BD Lib" id="bdlib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/bdlib/files/2518031/download</URL>
+			<Size>1962731</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d2b8ba08414ac12737eb5ecbf92a19d9</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.14.3.12</version>
+				<url>bdew.net/mods/</url>
+				<authors>bdew</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Records" id="betterrecords" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/better-records/files/2620874/download</URL>
+			<Size>861826</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0a12cf4f0725152f3b15e0ad51f80213</MD5>
+			<Meta>
+				<credits>CodingForCookies</credits>
+				<description>Adds records that can play songs via URLs.</description>
+				<version>1.12.2-1.5.8</version>
+				<url>http://www.codingforcookies.com/</url>
+				<authors>Stumblinbear, Borlea, AngrySoundTech</authors>
+			</Meta>
+		</Module>
+		<Module name="BetterFps-1.4.8" id="betterfps" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/betterfps/download/2483393/file</URL>
+			<Size>155196</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d36f4d3c0f96e99a9a1ad2e8eeda1fc4</MD5>
+		</Module>
+		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/bibliocraft/files/2574880/download</URL>
+			<Size>5122856</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5b9f1a1543a1fdf687fe4761e3d63ed4</MD5>
+			<Meta>
+				<credits></credits>
+				<description>BiblioCraft adds fancy storage containers including bookcases, armor stands, potion shelves, regular shelves, tool racks, glass weapon cases, wooden desks and wooden chest labels and now add machines, redstone interactions, and eyeware, fancy lamps and golden lanterns. Also Tables, enchanted plates, map frames, and seats!</description>
+				<version>2.4.5</version>
+				<url>http://www.bibliocraftmod.com</url>
+				<authors>Joseph &apos;Nuchaz&apos; Sinclair</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/a4zuavy60dhathp/bibliocraft.cfg?dl=1</URL>
+				<Path>config/bibliocraft.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a73bb3430433be4ac927fe80b318167d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2596390/download</URL>
+			<Size>4707836</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>31b5bec79c3f9c01a46fbe1f58821fa4</MD5>
+			<Meta>
+				<credits>Tim Rurkowski, gamax92, GridMonkey, and many more</credits>
+				<description>Adds over 50 new biomes, blocks, and more!</description>
+				<version>7.0.1</version>
+				<url>http://mods.curse.com/mc-mods/minecraft/220318-biomes-o-plenty</url>
+				<authors>Adubbz, Amnet, Cheeserolls, Forstride, ted80</authors>
+			</Meta>
+		</Module>
+		<Module name="Blood Arsenal" id="BloodArsenal" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/blood-arsenal/files/2614813/download</URL>
+			<Size>645441</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>13da80b0b000cfa352cf9905da8590e1</MD5>
+			<Meta>
+				<credits>WayofTime, TehNut</credits>
+				<description>Does anyone actually read this</description>
+				<version>@VERSION@</version>
+				<url></url>
+				<authors>Arcaratus</authors>
+			</Meta>
+		</Module>
+		<Module name="Blood Magic: Alchemical Wizardry" id="bloodmagic" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/blood-magic/download/2610083/file</URL>
+			<Size>7064754</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>91921948eb21300e4cfa6094bf70ae7d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Rituals, spells, and more!</description>
+				<version>1.12.2-2.3.3-101</version>
+				<url>http://www.minecraftforum.net/topic/1899223-bloodmagic</url>
+				<authors>WayofTime, TehNut</authors>
+			</Meta>
+		</Module>
+		<Module name="Bloodmoon" id="bloodmoon" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/bloodmoon/files/2537917/download</URL>
+			<Size>47505</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6abdadb259cac735ff85fce91888b9ac</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds the bloodmoon from terraria to minecraft</description>
+				<version>1.5.3</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/bw8h89iqk7ld5rz/bloodmoon.cfg?dl=1</URL>
+				<Path>config/bloodmoon.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2dd7106bcf1c257aa034ce730dd08d3d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/bookshelf/files/2612254/download</URL>
+			<Size>242996</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>60f1c00dac526b7db0468820cfd6572c</MD5>
+			<Meta>
+				<credits>ChickenBones, CyanideX, iLexiconn, SanAndreasP, VikeStep, jaredlll08</credits>
+				<description>Bookshelf is a core/library mod, which adds new features and tools into the game for other content creators to work with. The primary focus of this project is to make use of the combined strength of the modded community to create wonderful tools that everyone can use.</description>
+				<version>2.3.559</version>
+				<url>http://minecraft.curseforge.com/projects/bookshelf</url>
+				<authors>darkhax, lclc98</authors>
+			</Meta>
+		</Module>
+		<Module name="Brandon&apos;s Core" id="brandonscore" depends="" side="BOTH">
+			<URL priority="0">https://runicpony.enjin.com//mods/BrandonsCore-1.12.2-2.4.5.176-universal.jar</URL>
+			<Size>887024</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7a8768af41afd2d466bedac163607955</MD5>
+			<Meta>
+				<description>Brandon&apos;s Core is a library mod used by most of my mods. It is no longer a core mod as the name would suggest but it does still contain a lot of the core code used by my mods including but not limited to base classes for various tiles, blocks and items, A powerful modular gui system and a lot of other miscellaneous utilities.</description>
+				<credits></credits>
+				<version>1.12.2-2.4.5.176</version>
+				<url>http://minecraft.curseforge.com/projects/brandons-core</url>
+				<authors>brandon3055</authors>
+			</Meta>
+		</Module>
+		<Module name="Chance Cubes" id="chancecubes" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/chance-cubes/files/2620326/download</URL>
+			<Size>915596</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b6e31a63675294bbe4f5d80787f80a35</MD5>
+			<Meta>
+				<description>A Game of Chance and Skill</description>
+				<credits>Funwayguy for the Icosahderon model and awesome rendering effects! https://twitter.com/Funwayguy</credits>
+				<version>1.12.2-3.2.2.237</version>
+				<url>http://minecraft.curseforge.com/mc-mods/233113-chance-cubes</url>
+				<authors>Turkey2349</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/xg512ailq89uj14/chancecubes.cfg?dl=1</URL>
+				<Path>config/ChanceCubes/chancecubes.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0987e29118d50b6dcf8c272bf196da26</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/v7w8kz6kv5kdpfn/CustomSounds-Resourcepack.zip?dl=1</URL>
+				<Path>config/ChanceCubes/CustomRewards/CustomSounds-Resourcepack.zip</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7f1a847485218aaa6b6f880c0dec4947</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/8ksv1ceydh1xwfn/CustomSounds-Resourcepack.zip?dl=1</URL>
+				<Path>config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2b0cdc226f790c302cf4fa6d43b3d72a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/xslx3eeyn84qmi6/readme.txt?dl=1</URL>
+				<Path>config/ChanceCubes/CustomRewards/Resourcepack/readme.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7079a2f00600a3f03f02968660766bef</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/2pmg9wedg7h8fjv/sounds.json?dl=1</URL>
+				<Path>config/ChanceCubes/CustomRewards/Sounds/sounds.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>99914b932bd37a50b983c5e7c90ae93b</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ChaoticAdditions" id="ca" depends="" side="BOTH">
+			<URL priority="0">https://www.dropbox.com/s/3zmj2h5sioklhud/ca-1.01.jar?dl=1</URL>
+			<Size>27837</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fdcdd42f9b56d25b51c061f8deb46713</MD5>
+			<Meta>
+				<description>A mod designed specifically for the Chaotica Redux server.</description>
+				<credits>The Chaotica Redux community for being awesome and inspiring me to ever greater heights!</credits>
+				<version>1.01</version>
+				<url></url>
+				<authors>BlackjackMKV</authors>
+			</Meta>
+		</Module>
+		<Module name="ChickenChunks" id="chickenchunks" depends="" side="BOTH">
+			<URL priority="0">http://chickenbones.net/maven/codechicken/ChickenChunks/1.12.2-2.4.1.73/ChickenChunks-1.12.2-2.4.1.73-universal.jar</URL>
+			<Size>134368</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c930adfeaa59c7d846b440e11a101d97</MD5>
+			<Meta>
+				<description>Advanced chunkloading management</description>
+				<credits></credits>
+				<version>2.4.1.73</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones</authors>
+			</Meta>
+		</Module>
+		<Module name="Chickens" id="chickens" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/chickens/download/2537643/file</URL>
+			<Size>247347</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>230307e4a9924bdb5421bf1e635856aa</MD5>
+			<Meta>
+				<description>Chickens... lots of chickens.</description>
+				<credits>The Forge and FML guys, for making this example</credits>
+				<version>6.0.4</version>
+				<url>http://minecraft.curseforge.com/projects/chickens</url>
+				<authors>SetyCz, Wyvi, GenDeathrow, LordCazsius</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/80dsx9tvymewwnj/chickens.json?dl=1</URL>
+				<Path>config/chickens/chickens.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>21e40d9df43974dd0b1b39fca0739df9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/g3rmiety43dqhf1/main_chickens.cfg?dl=1</URL>
+				<Path>config/chickens/main_chickens.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6abeb027ba85e750a17d7bf90f168bf9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/wunswfrdv27jegu/morechickens.json?dl=1</URL>
+				<Path>config/chickens/morechickens.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3dcd733125d2a56350f9342bc1bf2fab</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Chisel" id="chisel" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/chisel/files/2619468/download</URL>
+			<Size>4310011</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dbda5475859bcffc9f572c5a1506a1f4</MD5>
+			<Meta>
+				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
+				<credits>AUTOMATIC_MAIDEN for the original mod,
+asie for porting to 1.7.2,
+and Pokenfenn/Cricket for continuing it in 1.7.
+This mod uses textures from the Painterly Pack: http://painterlypack.net/.</credits>
+				<version>MC1.12.2-0.2.1.35</version>
+				<url>https://minecraft.curseforge.com/projects/chisel</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+		</Module>
+		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/chisels-bits/files/2617805/download</URL>
+			<Size>716329</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>acf5e7fb24fac9d285b4d74df565b27c</MD5>
+			<Meta>
+				<description>a mod about Sculpting, Decorating and Aesthetics</description>
+				<credits>AlgorithmX2</credits>
+				<version>14.24</version>
+				<url>http://minecraft.curseforge.com/projects/chisels-bits</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+		</Module>
+		<Module name="Clumps" id="clumps" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/clumps/files/2576264/download</URL>
+			<Size>13723</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>727689d86739f9dc987e05259de1a68d</MD5>
+			<Meta>
+				<description>Clumps xp orbs together .</description>
+				<credits></credits>
+				<version>3.1.1</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<URL priority="0">http://chickenbones.net/maven/codechicken/CodeChickenLib/1.12.2-3.2.2.353/CodeChickenLib-1.12.2-3.2.2.353-universal.jar</URL>
+			<Size>700785</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f8b4843eccafb2213512ba9be17bfad2</MD5>
+			<Meta>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<credits></credits>
+				<version>3.2.2.353</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/cofhcore/download/2586247/file</URL>
+			<Size>838208</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6670912dc337991f2845001907212a2d</MD5>
+			<Meta>
+				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
+				<credits>Team CoFH</credits>
+				<version>4.5.3.20</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="CoFH World" id="cofhworld" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/cofh-world/files/2623091/download</URL>
+			<Size>531831</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c62ac9be4542047c31d847a80d3955ea</MD5>
+			<Meta>
+				<description>Provides advanced and highly customizable world generation capabilities.</description>
+				<credits>Team CoFH</credits>
+				<version>1.3.0.6</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/constructs-armory/files/2613611/download</URL>
+			<Size>790641</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1ed9c9ce0fa4967fa1f680e4af8aa119</MD5>
+			<Meta>
+				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
+				<credits></credits>
+				<version>1.12.2-1.1.1</version>
+				<url></url>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/crafttweaker/files/2576160/download</URL>
+			<Size>1275699</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ca3fb924c8d9d213ace215d492d7b12b</MD5>
+			<Meta>
+				<description>Customize your minecraft experience!</description>
+				<credits>Created By StanHebben and Jaredlll08</credits>
+				<version>1.12-4.1.9</version>
+				<url>http://minetweaker3.powerofbytes.com</url>
+				<authors>StanHebben, Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="CTM" id="ctm" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ctm/files/2584026/download</URL>
+			<Size>192297</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ae47db2db3a8210e4647a5145fd30b00</MD5>
+			<Meta>
+				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
+				<credits></credits>
+				<version>MC1.12.2-0.3.2.18</version>
+				<url>https://minecraft.curseforge.com/projects/ctm</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+		</Module>
+		<Module name="CustomNPCs" id="customnpcs" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/custom-npcs/files/2608992/download</URL>
+			<Size>10341104</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de33a15e3d859f953b5a61052ab341ab</MD5>
+			<Meta>
+				<description>The Custom Npcs mod lets you create your own npcs and lets you customize them how you want</description>
+				<credits>A lot of people, see the list at the forum</credits>
+				<version>1.12</version>
+				<url>http://tinyurl.com/customnpcs</url>
+				<authors>Noppes</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/dzw6wdcobvtcck7/CustomNpcs.cfg?dl=1</URL>
+				<Path>config/CustomNpcs.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>474018dd20013b680a6f2911a9d7d0b1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/cyclops-core/files/2614989/download</URL>
+			<Size>823711</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>182ca96d56cd29bfa77df024605fb1da</MD5>
+			<Meta>
+				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
+				<credits>kroeserr, _EeB_</credits>
+				<version>1.12.2-0.11.10</version>
+				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
+				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
+			</Meta>
+		</Module>
+		<Module name="Dimensional Doors" id="dimdoors" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/dimensionaldoors/download/2558528/file</URL>
+			<Size>7714476</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fcc5854114dd4d8edc58a1f71d641ea9</MD5>
+			<Meta>
+				<description>Bend and twist reality itself, creating pocket dimensions, rifts, and much more</description>
+				<credits>Created by StevenRS11, Coded by StevenRS11 and SenseiKiwi, Logo and Testing by Jaitsu, Recent updates by Zixiken and Waterpicker</credits>
+				<version>3.0.9</version>
+				<url>https://github.com/DimensionalDevelopment/DimDoors</url>
+				<authors>StevenRS11, SenseiKiwi, Zixiken, WaterPicker, Robijnvogel, ZombieHDGaming, Runemoro</authors>
+			</Meta>
+		</Module>
+		<Module name="Ding" id="ding" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/ding/download/2476271/file</URL>
+			<Size>4711</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5b15173c1a4d3a48afa382857a1c0faa</MD5>
+			<Meta>
+				<description>Plays a sound once the client has loaded to the main menu or loaded the world</description>
+				<credits></credits>
+				<version>1.12.1-1.0.1</version>
+				<url>http://ichun.me/mods/ding/</url>
+				<authors>iChun</authors>
+			</Meta>
+		</Module>
+		<Module name="Draconic Evolution" id="draconicevolution" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/draconic-evolution/files/2619673/download</URL>
+			<Size>5665316</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>060a0998ff55cd214a90d0bd4dda8d9d</MD5>
+			<Meta>
+				<description>This is a mod that was originally made for the Tolkiencraft mod pack but it has since evolved way beyond that. This mod adds a lot of extremely expensive and powerful end game items as well as a lot of random useful bits and pieces.</description>
+				<credits></credits>
+				<version>1.12.2-2.3.15.312</version>
+				<url>http://www.brandon3055.com/</url>
+				<authors>brandon3055</authors>
+			</Meta>
+		</Module>
+		<Module name="Dragon Mounts" id="dragonmounts" depends="" side="BOTH">
+			<URL priority="0">https://www.dropbox.com/s/6o0nrs4c513y3sq/DragonMounts-1.12-1.4.7.jar?dl=1</URL>
+			<Size>3110432</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0470f58304d625a33adbd7f195e9b6c6</MD5>
+			<Meta>
+				<description>Don&apos;t forget to right click the egg to make it hatch</description>
+				<credits>BarracudaATA4 - The Original Owner, 
+   FlaemWing - for new nest block textures and dragonarmor item textures, 
+   cesar_zorak - for dragon armor model textures,
+   qnebra - for polish translation, 
+   merpou - more textures much help :D Thanks Man...,
+   AlexThe666 - for open source code,</credits>
+				<version>1.12-1.4.7</version>
+				<url>https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2878357-realm-of-the-dragons-1-10-2-1-12</url>
+				<authors>BarracudaATA, 
+  TheRPGAdventurer</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/fpzs1jt51kzqw0m/dragonmounts.cfg?dl=1</URL>
+				<Path>config/dragonmounts.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1bfcd84f1df5eda4f2f93fa9c1a61334</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Embers" id="embers" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/embers/files/2495586/download</URL>
+			<Size>1649380</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9efd4dc81771e958392be50cfd620068</MD5>
+			<Meta>
+				<description>Dwarven-style Magitech Mod</description>
+				<credits></credits>
+				<version>0.230</version>
+				<url></url>
+				<authors>Elucent, AlexisMachina, ShadowGamerXY, werty1124</authors>
+			</Meta>
+		</Module>
+		<Module name="Enchanting Plus" id="eplus" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/enchanting-plus/download/2620368/file</URL>
+			<Size>134128</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0721e9961113819a17a3cc443beea4ca</MD5>
+			<Meta>
+				<description>Provides a less random enchanting system.</description>
+				<credits>Maintained by Darkhax</credits>
+				<version>5.0.169</version>
+				<url></url>
+				<authors>Darkhax, lclc98, xkyouchoux, odininon, GnR Slash</authors>
+			</Meta>
+		</Module>
+		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ender-io/files/2616945/download</URL>
+			<Size>6769006</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1b0cf20dbb00ed0a291ed14dba10e0a4</MD5>
+			<Meta>
+				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
+				<credits>By CrazyPants, with the help of many</credits>
+				<version>5.0.33</version>
+				<url>http://enderio.com</url>
+				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
+			</Meta>
+		</Module>
+		<Module name="Ender Zoo" id="EnderZoo" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ender-zoo/files/2484148/download</URL>
+			<Size>496656</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f900046c11d7a5fab019003432e57db9</MD5>
+			<Meta>
+				<description>More Mobs</description>
+				<credits>By CrazyPants</credits>
+				<version>1.12.1-1.4.0.49</version>
+				<url>http://enderio.com</url>
+				<authors>crazypants</authors>
+			</Meta>
+		</Module>
+		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/endercore/files/2624327/download</URL>
+			<Size>617830</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5ecd16b6cc0145e33deb26018e1ab7ae</MD5>
+			<Meta>
+				<description>Library mod used by EnderIO, EnderZoo, and others</description>
+				<credits></credits>
+				<version>1.12.2-0.5.41</version>
+				<url>http://enderio.com</url>
+				<authors>tterrag, CrazyPants, HenryLoenwind</authors>
+			</Meta>
+		</Module>
+		<Module name="EverlastingAbilities" id="everlastingabilities" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/everlastingabilities/files/2614985/download</URL>
+			<Size>164262</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9808c8d5d003ee140416aa3b6b632da5</MD5>
+			<Meta>
+				<description>Discover, share and conquer abilities that stick.</description>
+				<credits>rubensworks (aka kroeserr)</credits>
+				<version>1.12.2-1.3.18</version>
+				<url>https://github.com/CyclopsMC/EverlastingAbilities</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/qq7flbpa3v9dtul/everlastingabilities.cfg?dl=1</URL>
+				<Path>config/everlastingabilities.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0b7c66a9667ba4b22cc89930b3bdff25</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Ex Compressum" id="excompressum" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/ex-compressum/download/2620499/file</URL>
+			<Size>507343</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>08c549134afadfe0ee4d644dc155212f</MD5>
+			<Meta>
+				<description>Ex Nihilo Addon. Adds compressed hammers, automatic sieves and hammerers, wooden crucibles, ...</description>
+				<credits>Blay and her Patrons for being diligent sifters</credits>
+				<version>3.0.26</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="Ex Nihilo Creatio" id="exnihilocreatio" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ex-nihilo-creatio/files/2575099/download</URL>
+			<Size>742786</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6bddaeae145f71da6a7837074507d260</MD5>
+			<Meta>
+				<description>&quot;From nothing, with progression&quot;</description>
+				<credits>Insaneau, for, you know, being the author, and SnakeFang12 for, like, doing a bunch of stuff. Also OhYea777 for porting to 1.11.2. Plus Jacky1356400 and BloodWorkXGaming for porting to 1.12.</credits>
+				<version>1.12-0.2.4</version>
+				<url></url>
+				<authors>Insaneau, OhYea777, Jacky1356400, BloodWorkXGaming</authors>
+			</Meta>
+		</Module>
+		<Module name="Extra Cells 2" id="extracells" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/extracells2/download/2574581/file</URL>
+			<Size>2563291</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>490b3590162b7a0582311d17ba97f5bf</MD5>
+			<Meta>
+				<description>Adds new ME Storage Cells and some other cool stuff to AE 2.</description>
+				<credits>Textures by PaleoCrafter and Cyntain</credits>
+				<version>2.5.13</version>
+				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289077-ae-add-on-m3gas-extracells-2-1-x-2-2-x</url>
+				<authors>M3gaFr3ak, DrummerMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Extra Utilities 2" id="extrautils2" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2622/3/extrautils2-1.12-1.9.4.jar</URL>
+			<Size>3206158</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d6e0e067874abeb7c199dcaba6a021ab</MD5>
+			<Meta>
+				<description>A bunch of useful things.</description>
+				<credits></credits>
+				<version>${version}</version>
+				<url></url>
+				<authors>RWTema</authors>
+			</Meta>
+		</Module>
+		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/fastworkbench/download/2614071/file</URL>
+			<Size>24516</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b73ceb3ca10769540aab826a9326b7bf</MD5>
+			<Meta>
+				<description>1 fast boi</description>
+				<credits></credits>
+				<version>1.12.2-1.5.3</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="Flux Networks" id="fluxnetworks" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/flux-networks/download/2583454/file</URL>
+			<Size>555952</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9b83a0101911e1f761153017b517dc0d</MD5>
+			<Meta>
+				<description>Create Wireless Energy Networks</description>
+				<credits>Created by Ollie Lansdell</credits>
+				<version>1.12.2-3.0.16-11</version>
+				<url></url>
+				<authors>Ollie Lansdell</authors>
+			</Meta>
+		</Module>
+		<Module name="FoamFix" id="foamfix" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/foamfix-for-minecraft/download/2621496/file</URL>
+			<Size>214428</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>28651bdf2c751d2d0255ee790b8180e7</MD5>
+			<Meta>
+				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
+				<credits></credits>
+				<version>@VERSION@</version>
+				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
+				<authors>asiekierka</authors>
+			</Meta>
+		</Module>
+		<Module name="Foamflower" id="foamflower" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/foamflower/files/2489397/download</URL>
+			<Size>67908</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6f45a5552ea322d4419660682d195765</MD5>
+			<Meta>
+				<description>Minecraft GUI library.</description>
+				<credits></credits>
+				<version>1.12.2-1.0.0.0-beta1</version>
+				<url>https://github.com/kamildanak/Foamflower</url>
+				<authors>kamildanak</authors>
+			</Meta>
+		</Module>
+		<Module name="Forge Multipart CBE" id="forgemultipartcbe" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/forge-multipart-cbe/files/2600448/download</URL>
+			<Size>1297925</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>82dcf68ad90a1bee85e56bb274e8c15c</MD5>
+			<Meta>
+				<description>Open source library for facilitation of multiple functional parts in the one block space.</description>
+				<credits></credits>
+				<version>2.5.0.71</version>
+				<url>https://github.com/Chicken-Bones/ForgeMultipart</url>
+				<authors>ChickenBones</authors>
+			</Meta>
+		</Module>
+		<Module name="FTB Utilities" id="ftbutilities" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ftb-utilities/files/2634405/download</URL>
+			<Size>423926</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5d1619e61897ec1537703ba4f501e520</MD5>
+			<Meta>
+				<description></description>
+				<credits></credits>
+				<version>5.3.0.53</version>
+				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
+		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ftblib/files/2634401/download</URL>
+			<Size>876047</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>250f587685af4b7cd34d8e3c844c59bd</MD5>
+			<Meta>
+				<description></description>
+				<credits></credits>
+				<version>5.3.1.57</version>
+				<url>http://minecraft.curseforge.com/projects/ftblib</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
+		<Module name="Guide-API" id="guideapi" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/guide-api/files/2583886/download</URL>
+			<Size>168974</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>998d9b909a9e2b369cc32dc867bc0770</MD5>
+			<Meta>
+				<description>Simple mod guide creation.</description>
+				<credits></credits>
+				<version>1.12-2.1.6-61</version>
+				<url></url>
+				<authors>Tombenpotter, TehNut</authors>
+			</Meta>
+		</Module>
+		<Module name="Hatchery" id="hatchery" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/hatchery/files/2626043/download</URL>
+			<Size>629936</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1c97de6ed8dd31f0e93476dc2f1091df</MD5>
+			<Meta>
+				<description>Dont waste those eggs anymore! Become your own chicken farmer!</description>
+				<credits>Darkosto, Mezz, Vadis365</credits>
+				<version>2.1.4</version>
+				<url>https://minecraft.curseforge.com/projects/hatchery</url>
+				<authors>GenDeathrow</authors>
+			</Meta>
+		</Module>
+		<Module name="In-Game wiki Mod" id="igwmod" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/in-game-wiki-mod/files/2551739/download</URL>
+			<Size>285402</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d0a1b797919d8e35c1921d6f35e29417</MD5>
+			<Meta>
+				<description>Mod that allows for mods to add in-game documentation.</description>
+				<credits></credits>
+				<version>1.4.4-15</version>
+				<url>www.minemaarten.com</url>
+				<authors>MineMaarten</authors>
+			</Meta>
+		</Module>
+		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks/download/2482481/file</URL>
+			<Size>263258</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
+			<Meta>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
+				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
+				<version>1.63+release.109.220f184</version>
+				<url>https://github.com/Kobata/inventory-tweaks</url>
+				<authors>Jimeo Wan, Kobata</authors>
+			</Meta>
+		</Module>
+		<Module name="IvToolkit" id="IvToolkit" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ivtoolkit/files/2443253/download</URL>
+			<Size>455763</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f1a23cb6eaa682240c0ecdab65e7857f</MD5>
+			<Meta>
+				<description>This is a framework that I mostly use in my own mods, for shared functionality.</description>
+				<credits></credits>
+				<version>1.3.3-1.12</version>
+				<url>http://minecraft.curseforge.com/projects/ivtoolkit</url>
+				<authors>Ivorius</authors>
+			</Meta>
+		</Module>
+		<Module name="JEI Integration" id="jeiintegration" depends="" side="BOTH">
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/jei-integration/download/2491927/file</URL>
+			<Size>54046</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de73cdc5de95a2685e50d90f01c03a50</MD5>
+			<Meta>
+				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
+				<credits>A huge thank you to Tonius for originally creating this amazing mod. I hope it lives up to his standards in his absence.</credits>
+				<version>1.5.1.36</version>
+				<url>https://minecraft.curseforge.com/projects/jei-integration</url>
+				<authors>SnowShock35</authors>
+			</Meta>
+		</Module>
+		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/journeymap/files/2498312/download</URL>
+			<Size>1822850</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b743562dac1b5334c20ac87b54c0b518</MD5>
+			<Meta>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2017-11-08-19:54:02.</description>
+				<credits></credits>
+				<version>1.12.2-5.5.2</version>
+				<url>http://journeymap.info</url>
+				<authors>techbrew, mysticdrew</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/jei/files/2621449/download</URL>
+			<Size>584096</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7484928be203b32c0d4af2df9914dbc3</MD5>
+			<Meta>
+				<description>Simple recipe and item helper.</description>
+				<credits></credits>
+				<version>4.12.1.217</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Resources" id="jeresources" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2497186/download</URL>
+			<Size>213675</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>27533ed3008d56108ea637195e485c33</MD5>
+			<Meta>
+				<description>Adds Resources and Mob Drops to JEI</description>
+				<credits></credits>
+				<version>0.8.5</version>
+				<url></url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="LLibrary" id="llibrary" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/llibrary/files/2598753/download</URL>
+			<Size>869330</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a0b6ee72d9c8da3223a0aa6e49588abc</MD5>
+			<Meta>
+				<description>The lightweight Minecraft modding library</description>
+				<credits>pau101, BobMowzie, FiskFille, TheCyberBrick, WorldSEnder</credits>
+				<version>1.7.15-1.12.2</version>
+				<url>https://github.com/iLexiconn/LLibrary</url>
+				<authors>iLexiconn, gegy1000</authors>
+			</Meta>
+		</Module>
+		<Module name="Lost Souls" id="lostsouls" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2533/316/lostsouls-1.12-1.1.4.jar</URL>
+			<Size>30677</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6302e60ef37ff5a517cd5434ef6f039a</MD5>
+			<Meta>
+				<description>Lost Soul addon mod for The Lost Cities</description>
+				<credits></credits>
+				<version>1.12-1.1.4</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/zuvtjfrbe3i7b9t/lostsouls.cfg?dl=1</URL>
+				<Path>config/lostsouls.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dc8115a12cd466b1b45e28c5c6c58bf7</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Mantle" id="mantle" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/mantle/files/2550550/download</URL>
+			<Size>860884</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e2cd9d3d5ad2078062c91f9c33fd215c</MD5>
+			<Meta>
+				<description>Shared code for Slime Knights mods and others.</description>
+				<credits>mDiyo, Sunstrike</credits>
+				<version>1.3.2.24</version>
+				<url>https://github.com/SlimeKnights/Mantle</url>
+				<authors>boni, progWML6, Alexbegt</authors>
+			</Meta>
+		</Module>
+		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
+			<URL priority="0">https://s3.amazonaws.com/aidancbrady/mekanism/349/Mekanism-1.12.2-9.4.13.349.jar</URL>
+			<Size>16020358</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bf6d861193adb5d51f9eabe072bcd840</MD5>
+			<Meta>
+				<description>Energy, Armor, Tools, Weapons, Machines, Magic.</description>
+				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<version>1.12.2-9.4.13.349</version>
+				<url></url>
+				<authors>aidancbrady</authors>
+			</Meta>
+		</Module>
+		<Module name="MekanismGenerators" id="mekanismgenerators" depends="" side="BOTH">
+			<URL priority="0">https://s3.amazonaws.com/aidancbrady/mekanism/349/MekanismGenerators-1.12.2-9.4.13.349.jar</URL>
+			<Size>338984</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>036cfdbdca2b8432ba9b86cccbce8c55</MD5>
+			<Meta>
+				<description>Generators module of Mekanism.</description>
+				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<version>1.12.2-9.4.13.349</version>
+				<url></url>
+				<authors>aidancbrady</authors>
+			</Meta>
+		</Module>
+		<Module name="MekanismTools" id="mekanismtools" depends="" side="BOTH">
+			<URL priority="0">https://s3.amazonaws.com/aidancbrady/mekanism/349/MekanismTools-1.12.2-9.4.13.349.jar</URL>
+			<Size>161142</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b47939b2d81b02670cf9803626a72fd5</MD5>
+			<Meta>
+				<description>Tools module for Mekanism.</description>
+				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<version>1.12.2-9.4.13.349</version>
+				<url></url>
+				<authors>aidancbrady</authors>
+			</Meta>
+		</Module>
+		<Module name="Minecraft Forge" id="forge-14.23.4.2765" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Override</ModType>
+		</Module>
+		<Module name="Moar Tinkers" id="moartinkers" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/moar-tinkers/files/2579934/download</URL>
+			<Size>70754</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>57256707133320f6dd7edd9230466982</MD5>
+			<Meta>
+				<description>Adds moar tinker materials and traits!</description>
+				<credits>Boni for Tinkers Construct 2. YaibaToKen for a rewrite!</credits>
+				<version>0.6.0</version>
+				<url></url>
+				<authors>Bartz24</authors>
+			</Meta>
+		</Module>
+		<Module name="Mob Totems" id="mobtotems" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/mobtotems/files/2479353/download</URL>
+			<Size>304796</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d689c554bb2c4b64228a652e06c94410</MD5>
+			<Meta>
+				<description>A mod which adds Mob Totems to the game. Craft these totems and ward off evil mobs and more.</description>
+				<credits>Thanks to pahimar for his let&apos;s mod reboot series. Thanks to whatthedrunk and gourdguru for ideas &amp; encouragement.</credits>
+				<version>0.3.0</version>
+				<url>https://github.com/CorwinJV/MobTotems</url>
+				<authors>CorwinJV</authors>
+			</Meta>
+		</Module>
+		<Module name="More Chickens" id="morechickens" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2521/137/morechickens-1.12.2-3.1.0.jar</URL>
+			<Size>225142</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>96fc5aca484b41b4dbe08ea044082e1a</MD5>
+			<Meta>
+				<description>Adds Tinkers Construct and Draconic Evolution chickens for Chickens Mod</description>
+				<credits>Chickens Mod, GameWalker, ACGaming, MrAmericanMike</credits>
+				<version>3.1.0</version>
+				<url>https://minecraft.curseforge.com/projects/more-chickens</url>
+				<authors>GenDeathrow</authors>
+			</Meta>
+		</Module>
+		<Module name="Morph-o-Tool" id="morphtool" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/morph-o-tool/files/2475117/download</URL>
+			<Size>26285</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3b199ebf54475d8ab7fb1bd069325478</MD5>
+			<Meta>
+				<description>The wrench to end all wrenches.</description>
+				<credits></credits>
+				<version>1.2-16</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Morpheus" id="morpheus" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/morpheus/files/2432272/download</URL>
+			<Size>20837</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6beb6c9b45a6526106f728ec35508a0c</MD5>
+			<Meta>
+				<description>Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.</description>
+				<credits></credits>
+				<version>1.12-3.3.2</version>
+				<url>http://www.curse.com/mc-mods/Minecraft/morpheus</url>
+				<authors>Quetzi</authors>
+			</Meta>
+		</Module>
+		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2462/627/MouseTweaks-2.8-mc1.12.1.jar</URL>
+			<Size>68793</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
+			<Meta>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
+				<credits>Various open-source mods from where I learned.</credits>
+				<version>2.8</version>
+				<url>http://www.minecraftforum.net/topic/1518185-</url>
+				<authors>YaLTeR</authors>
+			</Meta>
+		</Module>
+		<Module name="MrTJPCore" id="mrtjpcore" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2572/409/MrTJPCore-1.12.2-2.1.3.35-universal.jar</URL>
+			<Size>799809</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1442cc118c3c694121bf717a1d5b95c1</MD5>
+			<Meta>
+				<description>Core libs and utilities</description>
+				<credits></credits>
+				<version>2.1.3.35</version>
+				<url>...</url>
+				<authors>MrTJP, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="No Recipe Book" id="norecipebook" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2568/865/noRecipeBook_v1.2.2formc1.12.2.jar</URL>
+			<Size>4053</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c4fa33c05a45db33c5dd0fa6bec82c61</MD5>
+			<Meta>
+				<description>Removes the Recipe Book button from the player inventory and crafting table GUI.</description>
+				<credits></credits>
+				<version>1.2.1</version>
+				<url></url>
+				<authors>Luwin</authors>
+			</Meta>
+		</Module>
+		<Module name="Not Enough Items" id="nei" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2622/43/NotEnoughItems-1.12.2-2.4.1.239-universal.jar</URL>
+			<Size>470159</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f434600917530b05abfa24b3156d3f45</MD5>
+			<Meta>
+				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.&lt;plugins&gt;&lt;supporters&gt;</description>
+				<credits>Alexandria - original idea</credits>
+				<version>2.4.1.239</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones</authors>
+			</Meta>
+		</Module>
+		<Module name="OMLib" id="omlib" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2608/899/omlib-1.12.2-3.0.1-162.jar</URL>
+			<Size>96790</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>222aa7b352c048346dc05ca3b3836b97</MD5>
+			<Meta>
+				<description>Lib for OMT and its companion mods!</description>
+				<credits>Keridos</credits>
+				<version>3.0.1-162</version>
+				<url></url>
+				<authors>Poenjabiesous, Keridos</authors>
+			</Meta>
+		</Module>
+		<Module name="Open Modular Turrets" id="openmodularturrets" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2608/988/openmodularturrets-1.12.2-3.0.1-264.jar</URL>
+			<Size>965841</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>77640deb178effc88a682ab313390948</MD5>
+			<Meta>
+				<description>All a man needs are meat ingots, and big ass turrets. Adds a heap of new turrets and upgrades!</description>
+				<credits>Poenjabiesous</credits>
+				<version>3.0.1-264</version>
+				<url></url>
+				<authors>Poenjabiesous, UntouchedWagons, Keridos</authors>
+			</Meta>
+		</Module>
+		<Module name="OpenBlocks" id="openblocks" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2620/52/OpenBlocks-1.12.2-1.8.jar</URL>
+			<Size>3217313</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c6aafd334a6459705ca789ff16322935</MD5>
+			<Meta>
+				<description>All the things you never thought you will ever need</description>
+				<credits></credits>
+				<version>1.8</version>
+				<url>http://openmods.info/</url>
+				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
+			</Meta>
+		</Module>
+		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2540/146/OpenComputers-MC1.12.2-1.7.2.67.jar</URL>
+			<Size>15316083</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45ee059c7e7a4c5ff9e9662f82a9c523</MD5>
+			<Meta>
+				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
+				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
+				<version>1.7.2.67</version>
+				<url>http://oc.cil.li/</url>
+				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
+			</Meta>
+		</Module>
+		<Module name="OpenModsLib" id="openmods" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2620/51/OpenModsLib-1.12.2-0.12.jar</URL>
+			<Size>2639459</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>032a100e3613002a739d20b681a45ed5</MD5>
+			<Meta>
+				<description>Boring stuff for all that silly Open* mods</description>
+				<credits></credits>
+				<version>0.12</version>
+				<url>https://openmods.info/</url>
+				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
+			</Meta>
+		</Module>
+		<Module name="OreSpawn" id="orespawn" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2616/297/OreSpawn-1.12-3.3.0.155.jar</URL>
+			<Size>169646</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c3607afdd21e55aeb8a601f23c13a246</MD5>
+			<Meta>
+				<description>A customizable ore-spawning system that uses JSON files to specify custom ore generation</description>
+				<credits>The MMD community</credits>
+				<version>3.3.0</version>
+				<url></url>
+				<authors>dshadowwolf, iLexiconn, jriwanek, DrCyano</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/9c8a1au4a9rxuvw/orespawn.cfg?dl=1</URL>
+				<Path>config/orespawn.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>666382029a00785d8f2b7a08d61621c9</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Pam&apos;s Cookables" id="pamscookables" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2504/109/pamscookables-1.1.jar</URL>
+			<Size>4957</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fc4183af6720617bc5df8cda3ba2e308</MD5>
+			<Meta>
+				<description>Changes the recipes from Pam&apos;s Harvestcraft back to cooking</description>
+				<credits></credits>
+				<version>1.1</version>
+				<url></url>
+				<authors>BloodWorkXGaming</authors>
+			</Meta>
+		</Module>
+		<Module name="Pam&apos;s HarvestCraft" id="harvestcraft" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2616/512/Pam&apos;s%20HarvestCraft%201.12.2z.jar</URL>
+			<Size>4502730</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bcc0399e9de682b489dc7c41753f52dd</MD5>
+			<Meta>
+				<description>Expanding minecraft&apos;s food system.</description>
+				<credits></credits>
+				<version>1.12a</version>
+				<url>http://minecraft.curseforge.com/members/MatrexsVigil/projects</url>
+				<authors>Pamela Collins</authors>
+			</Meta>
+		</Module>
+		<Module name="Pewter" id="pewter" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2614/341/Pewter-1.1.4.jar</URL>
+			<Size>1009664</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a83cef4678dab93abb720065b6de5184</MD5>
+			<Meta>
+				<description>Tinkers&apos; Construct Integration Addon</description>
+				<credits>Forge, FML &amp; all of the wonderful authors of Tinkers&apos; Construct.</credits>
+				<version>1.1.4</version>
+				<url></url>
+				<authors>Ejektaflex</authors>
+			</Meta>
+		</Module>
+		<Module name="PlusTiC" id="plustic" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2566/108/plustic-6.5.2.0.jar</URL>
+			<Size>359796</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>73afd629943bb33cf2f26965e43e6b69</MD5>
+			<Meta>
+				<description>Add new tools to and integrate various mods with Tinker&apos;s Construct</description>
+				<credits>Bonii-xx, KnightMiner, and alexbegt for TiC, and McJty for CompatLayer, which makes this mod compatible with both 1.10.2 and 1.11.2</credits>
+				<version>6.5.2.0</version>
+				<url>https://minecraft.curseforge.com/projects/plustic</url>
+				<authors>Landmaster (phuong0429)</authors>
+			</Meta>
+		</Module>
+		<Module name="ProjectRed Compatibility" id="projectred-compatibility" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2572/420/ProjectRed-1.12.2-4.9.1.92-compat.jar</URL>
+			<Size>62460</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>850041255fa6b555f4f4c53c26dc9f08</MD5>
+			<Meta>
+				<description></description>
+				<credits></credits>
+				<version>4.9.1.92</version>
+				<url></url>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="ProjectRed Core" id="projectred-core" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2572/423/ProjectRed-1.12.2-4.9.1.92-Base.jar</URL>
+			<Size>2032359</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d70bc67baad5c7739f39b88f22182450</MD5>
+			<Meta>
+				<description>Redstone. The way it was meant to be.</description>
+				<credits>Eloraam, GitHub contributors</credits>
+				<version>4.9.1.92</version>
+				<url>http://projectredwiki.com</url>
+				<authors>MrTJP, ChickenBones, covers1624</authors>
+			</Meta>
+		</Module>
+		<Module name="ProjectRed Expansion" id="projectred-expansion" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2572/422/ProjectRed-1.12.2-4.9.1.92-mechanical.jar</URL>
+			<Size>2586694</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>206c601a3800e3ff0e21763f2e9e8b9c</MD5>
+			<Meta>
+				<description></description>
+				<credits></credits>
+				<version>4.9.1.92</version>
+				<url></url>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="ProjectRed Exploration" id="projectred-exploration" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2572/421/ProjectRed-1.12.2-4.9.1.92-world.jar</URL>
+			<Size>501254</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6d048f2e2eff31376f0f6668e761f5d5</MD5>
+			<Meta>
+				<description></description>
+				<credits></credits>
+				<version>4.9.1.92</version>
+				<url></url>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="ProjectRed Fabrication" id="projectred-fabrication" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2572/424/ProjectRed-1.12.2-4.9.1.92-fabrication.jar</URL>
+			<Size>1886213</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>30830faa0777da6f0104acd3aaf336ce</MD5>
+			<Meta>
+				<description></description>
+				<credits></credits>
+				<version>4.9.1.92</version>
+				<url></url>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="ProjectRed Illumination" id="projectred-illumination" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2572/426/ProjectRed-1.12.2-4.9.1.92-lighting.jar</URL>
+			<Size>724243</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>730390ea1cb64c8bc50c98bcd8ed6b8c</MD5>
+			<Meta>
+				<description></description>
+				<credits></credits>
+				<version>4.9.1.92</version>
+				<url></url>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="ProjectRed Transmission" id="projectred-transmission" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2572/427/ProjectRed-1.12.2-4.9.1.92-integration.jar</URL>
+			<Size>3921871</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b09e19b2005c2c48fd3001703d3e425d</MD5>
+			<Meta>
+				<description></description>
+				<credits></credits>
+				<version>4.9.1.92</version>
+				<url></url>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Psi" id="psi" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2499/167/Psi-r1.1-59.jar</URL>
+			<Size>2177817</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>92aec994592bfcad6f09c810a2e9efb8</MD5>
+			<Meta>
+				<description>Psionic Spellcasting Instruments</description>
+				<credits></credits>
+				<version>r1.1-59</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/90hip5chsdntx06/psi.cfg?dl=1</URL>
+				<Path>config/psi.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>853089689a1a5f69e742c713f696f2ee</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Random PSIdeas" id="rpsideas" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2623/474/Random%20PSIdeas-1.8b.jar</URL>
+			<Size>632941</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e4120ed56ca7cb337f7dbb7e228f9ca6</MD5>
+			<Meta>
+				<description>Random useful additions to PSI!</description>
+				<credits>The guys over at PSI: Taurus Silver discord and Vazkii, wiresegal for PSIonic Upgrades and Quat for porting PSIonic upgrades</credits>
+				<version>1.8b</version>
+				<url></url>
+				<authors>Kamefrede</authors>
+			</Meta>
+		</Module>
+		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2608/222/randompatches-1.12.2-1.5.0.4.jar</URL>
+			<Size>69920</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9866af0a0800169665061e3aa1d75aff</MD5>
+			<Meta>
+				<description>A bunch of miscellaneous patches for Minecraft.</description>
+				<credits></credits>
+				<version>1.12.2-1.5.0.4</version>
+				<url>https://minecraft.curseforge.com/projects/randompatches</url>
+				<authors>TheRandomLabs</authors>
+			</Meta>
+		</Module>
+		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2618/722/RebornCore-1.12.2-3.10.1.335-universal.jar</URL>
+			<Size>574516</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e24a945437b369d6e66fc9075a214f97</MD5>
+			<Meta>
+				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
+				<credits></credits>
+				<version>3.10.1.335</version>
+				<url>https://github.com/TechReborn/RebornCore</url>
+				<authors>modmuss50, Gigabit101, Prospector</authors>
+			</Meta>
+		</Module>
+		<Module name="Recurrent Complex" id="reccomplex" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2516/761/RecurrentComplex-1.4.7.jar</URL>
+			<Size>6928168</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a4033c25cad58e021d0479768665c8b9</MD5>
+			<Meta>
+				<description>Adds structures to worldgen, handles exporting and importing structures, and provides build tools.</description>
+				<credits>See structurecredits.txt for full default structure list credits.</credits>
+				<version>1.4.7</version>
+				<url></url>
+				<authors>Ivorius</authors>
+			</Meta>
+		</Module>
+		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2567/260/RedstoneFlux-1.12-2.0.2.3-universal.jar</URL>
+			<Size>35219</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0d15cc1e59c8028cf17f6a78bda460dc</MD5>
+			<Meta>
+				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
+				<credits>Team CoFH</credits>
+				<version>2.0.2.3</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Roots 2" id="roots" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2510/836/roots-2-0.104.jar</URL>
+			<Size>715808</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>35457c3d5b1e8668fd9ef4d7b93bb26f</MD5>
+			<Meta>
+				<description>Druidic magic mod.</description>
+				<credits></credits>
+				<version>0.104</version>
+				<url></url>
+				<authors>Elucent, AlexisMachina, werty1124, SirShadow</authors>
+			</Meta>
+		</Module>
+		<Module name="Scaling Health" id="scalinghealth" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2627/441/ScalingHealth-1.12.2-1.3.30-131.jar</URL>
+			<Size>347435</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>919025ce1728d06f692e71b764262fa7</MD5>
+			<Meta>
+				<description>Extra health for players and/or mobs!</description>
+				<credits></credits>
+				<version>1.3.30</version>
+				<url>https://minecraft.curseforge.com/projects/scaling-health</url>
+				<authors>SilentChaos512</authors>
+			</Meta>
+		</Module>
+		<Module name="Schematics" id="schematics" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2601/927/Schematics-1.12.2.12.jar</URL>
+			<Size>127582</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cc1669f62afadb593747853ab5865cab</MD5>
+			<Meta>
+				<description>A simple item for rendering schematics</description>
+				<credits>All the people who have worked on minecraft schematics</credits>
+				<version>1.12.2.12</version>
+				<url>https://minecraft.curseforge.com/projects/schematics</url>
+				<authors>Dom Amato</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/pzt39ciwi4c7x8w/schematics.cfg?dl=1</URL>
+				<Path>config/schematics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2001f0b8d08b43eed64e943397ff37d8</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Secret Rooms 5" id="secretroomsmod" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2561/617/secretroomsmod-1.12.2-5.6.4.jar</URL>
+			<Size>343453</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d853b4060cf429ce7765a750501de764</MD5>
+			<Meta>
+				<description>This mod adds a variety of cool blocks that camouflage themselves to the surrounding world. All of these blocks have extremely useful functions that allow you to simply hide your diamonds, or punish all who dare try to get to them. Hidden doors, pressure plates, hidden levers and more!</description>
+				<credits>Originally made by AbrarSyed. Rewritten for 1.12.2 by Wyn Price</credits>
+				<version>5.6.4</version>
+				<url></url>
+				<authors>Wyn Price</authors>
+			</Meta>
+		</Module>
+		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2573/311/Forgelin-1.7.4.jar</URL>
+			<Size>4595089</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0ab4c2ac9bc3bc2f6c4929b70a7bf7d2</MD5>
+			<Meta>
+				<description>Kotlin helper library for Forge.</description>
+				<credits>Emberwalker, for the original Forgelin</credits>
+				<version>1.7.4</version>
+				<url>https://github.com/shadowfacts/Forgelin</url>
+				<authors>shadowfacts</authors>
+			</Meta>
+		</Module>
+		<Module name="Silent Lib" id="SilentLib" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2622/206/SilentLib-1.12.2-3.0.6-154.jar</URL>
+			<Size>295797</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>315e0409ecc9e9be514bf71cb35292af</MD5>
+			<Meta>
+				<description>Shared library for SilentChaos512&apos;s mods.</description>
+				<credits></credits>
+				<version>3.0.6</version>
+				<url>https://minecraft.curseforge.com/projects/silent-lib</url>
+				<authors>SilentChaos512</authors>
+			</Meta>
+		</Module>
+		<Module name="Skylands" id="skylands" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2540/783/skylands-1.5.5.jar</URL>
+			<Size>83299</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>823b052e76a0fa655a7c8e04622126c0</MD5>
+			<Meta>
+				<description>Generate Skylands World</description>
+				<credits>I have no idea of what I doing</credits>
+				<version>1.5.5</version>
+				<url></url>
+				<authors>Frinn</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/bxi4pxiceof8et8/Biomes.cfg?dl=1</URL>
+				<Path>config/skylands/Biomes.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>41dde4b6fbc8a96a8f785a518ba0ef03</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/n485qklrk7udzh1/General.cfg?dl=1</URL>
+				<Path>config/skylands/General.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ce84e4bbc7ff164278d263309689de7f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/vqvqphv9h32n01o/Ores.cfg?dl=1</URL>
+				<Path>config/skylands/Ores.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>aefb5f54603b1131dd34bfe5c6645859</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Solar Flux Reborn" id="solarflux" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2620/109/SolarFluxReborn_1.12.2-4.14r.jar</URL>
+			<Size>605490</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>df4f427736fee5897cf560467f2a1b0c</MD5>
+			<Meta>
+				<description>Solar Panels producing Forge Energy</description>
+				<credits></credits>
+				<version>4.14r</version>
+				<url></url>
+				<authors>Zeitheron</authors>
+			</Meta>
+		</Module>
+		<Module name="SonarCore" id="sonarcore" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2617/614/sonarcore-1.12.2-5.0.16-16.jar</URL>
+			<Size>1164726</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>92aa084015a739f7567ef725af3528c5</MD5>
+			<Meta>
+				<description>Sonar&apos;s Modding Framework</description>
+				<credits>Created by Ollie Lansdell</credits>
+				<version>1.12.2-5.0.16-16</version>
+				<url></url>
+				<authors>Ollie Lansdell</authors>
+			</Meta>
+		</Module>
+		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2618/719/TechReborn-1.12.2-2.17.4.824-universal.jar</URL>
+			<Size>2503564</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3f511e4b898c319c2701b1486c9024bf</MD5>
+			<Meta>
+				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
+				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
+				<version>2.17.4.824</version>
+				<url>https://github.com/TechReborn/TechReborn</url>
+				<authors>modmuss50, Gigabit101, Prospector</authors>
+			</Meta>
+		</Module>
+		<Module name="The Lost Cities" id="lostcities" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2616/393/lostcities-1.12-2.0.11.jar</URL>
+			<Size>778920</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1a9ebee45b2ca0403742ba7dfbe96f94</MD5>
+			<Meta>
+				<description>The Lost Cities World Generator</description>
+				<credits></credits>
+				<version>1.12-2.0.11</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="Thermal Dynamics" id="thermaldynamics" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2569/8/ThermalDynamics-1.12.2-2.5.1.14-universal.jar</URL>
+			<Size>758676</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>82d0bf008f5e48a6efca3f7739982351</MD5>
+			<Meta>
+				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
+				<credits>Team CoFH</credits>
+				<version>2.5.1.14</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2567/265/ThermalExpansion-1.12.2-5.5.0.29-universal.jar</URL>
+			<Size>2342103</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d2fd230e7ee573974b5964d8647b76df</MD5>
+			<Meta>
+				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
+				<credits>Team CoFH</credits>
+				<version>5.5.0.29</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2567/555/ThermalFoundation-1.12.2-2.5.0.19-universal.jar</URL>
+			<Size>2284786</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cb0ff0d6af0627792bdaaa23541dcad8</MD5>
+			<Meta>
+				<description>The Foundation of a Thermally enhanced world!</description>
+				<credits>Team CoFH</credits>
+				<version>2.5.0.19</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Tinker&apos;s Construct Expansion" id="tcexpansion" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2573/283/armoryexpansion-0.1.4.jar</URL>
+			<Size>7271</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>aeba5c7da48676eeea7d8e6ee379ab6f</MD5>
+			<Meta>
+				<description></description>
+				<credits></credits>
+				<version>0.1.4</version>
+				<url></url>
+				<authors>YaibaToKen</authors>
+			</Meta>
+		</Module>
+		<Module name="Tinkers Tool Leveling" id="tinkertoolleveling" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2570/118/TinkerToolLeveling-1.12.2-1.0.5.jar</URL>
+			<Size>95021</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>52e33e408b27de0147a0154da1771eb6</MD5>
+			<Meta>
+				<description>A small mod that gives your tools XP and awards extra modifiers on levelup</description>
+				<credits></credits>
+				<version>1.12.2-1.0.5</version>
+				<url>https://github.com/SlimeKnights/TinkersToolLeveling</url>
+				<authors>boni</authors>
+			</Meta>
+		</Module>
+		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2571/785/TConstruct-1.12.2-2.10.1.87.jar</URL>
+			<Size>3857035</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>59cef77d6e9a3ca3db31ac53c376ff1a</MD5>
+			<Meta>
+				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
+				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
+				<version>1.12.2-2.10.1.87</version>
+				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
+				<authors>boni, KnightMiner</authors>
+			</Meta>
+		</Module>
+		<Module name="Tiny Progressions" id="tp" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2618/890/tinyprogressions-1.12.2-3.3.31-Release.jar</URL>
+			<Size>1129670</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9a0caa213e0fc6d08004ec66b48285b6</MD5>
+			<Meta>
+				<description>Cobblegens, Growth Crystals and Watering Cans and more oh my!</description>
+				<credits></credits>
+				<version>3.2.31</version>
+				<url>https://www.patreon.com/kashdeya</url>
+				<authors>Kashdeya, Darkosto, GenDeathrow, ArclightTW</authors>
+			</Meta>
+		</Module>
+		<Module name="UniDict" id="unidict" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2609/35/UniDict-1.12.2-2.7b.jar</URL>
+			<Size>178492</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>86b64027801bfb2431bd80aa9eb3bf6e</MD5>
+			<Meta>
+				<description>a mod about unifying all the things.</description>
+				<credits>Mojang for creating Minecraft.
+Forge/FML for creating this awesome modding platform.
+The creators of every mod that UniDict interacts.
+All the users of UniDict.</credits>
+				<version>1.12.2-2.7b</version>
+				<url>http://minecraft.curseforge.com/projects/unidict</url>
+				<authors>WanionCane</authors>
+			</Meta>
+		</Module>
+		<Module name="Vending" id="vending" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2614/896/vending-1.12.2-3.0.1.2.jar</URL>
+			<Size>389773</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a89b3bbf606f97572f78daf5bb734c77</MD5>
+			<Meta>
+				<description>Adds a vending block that lets you sell items.</description>
+				<credits></credits>
+				<version>1.12.2-3.0.1.2</version>
+				<url></url>
+				<authors>AUTOMATIC_MAIDEN, kamildanak</authors>
+			</Meta>
+		</Module>
+		<Module name="Waila" id="waila" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2568/751/Hwyla-1.8.26-B41_1.12.2.jar</URL>
+			<Size>453778</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bca1c069d9171d331d211d24e8a3b770</MD5>
+			<Meta>
+				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
+				<credits></credits>
+				<version>1.8.26</version>
+				<url></url>
+				<authors>ProfMobius, TehNut</authors>
+			</Meta>
+		</Module>
+		<Module name="WanionLib" id="wanionlib" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2534/271/WanionLib-1.12.2-1.5.jar</URL>
+			<Size>63189</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f0c6e0afb5383ed0653db531dd12c732</MD5>
+			<Meta>
+				<description>Shared Code Library Used by (not)all WanionCane mods!</description>
+				<credits></credits>
+				<version>1.12.2-1.5</version>
+				<url>http://minecraft.curseforge.com/projects/wanionlib</url>
+				<authors>WanionCane</authors>
+			</Meta>
+		</Module>
+		<Module name="What Are We Looking At" id="wawla" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2613/883/Wawla-1.12.2-2.5.261.jar</URL>
+			<Size>87060</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fb4c1afede84eafbbf0ea03889734075</MD5>
+			<Meta>
+				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
+				<credits>ProfMobius for making the Waila mod.</credits>
+				<version>2.5.261</version>
+				<url>https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at</url>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="Wings" id="wings" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2625/90/wings-1.1.0-1.12.2.jar</URL>
+			<Size>320540</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c2932a2c8fe8f9a482745cec8c53e5e0</MD5>
+			<Meta>
+				<description>The Wings mod introduces an assortment of avian and insectoid wings for all of your aerial travel needs.</description>
+				<credits>LDShadowLady for concept design</credits>
+				<version>1.1.0</version>
+				<url>https://minecraft.curseforge.com/projects/wings</url>
+				<authors>pau101</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/2jkbhlcprp45l71/items.cfg?dl=1</URL>
+				<Path>config/wings/items.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8a7b531ebdc98afb2378b5a3b3bbf9f3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://www.dropbox.com/s/dkp1hl8kczhswsn/ores.cfg?dl=1</URL>
+				<Path>config/wings/ores.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2f51d704582894b68853633f9d67a74e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="WorldEdit CUI Forge Edition 2" id="worldeditcuife2" depends="" side="BOTH">
+			<URL priority="0">https://addons.cursecdn.com/files/2482/463/WorldEdit%20CUI%20Forge%20Edition%202-2.1.2-mf-1.12-14.21.1.2387.jar</URL>
+			<Size>461792</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de1eb987ae68dc49b704fcb3edeea4e0</MD5>
+			<Meta>
+				<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
+				<credits>Thanks to LoadingByte for maintaining and updating GuiLib. Thnaks to Zyin&apos;s for releasing his code.</credits>
+				<version>2.1.2-mf-1.12-14.21.1.2387</version>
+				<url>https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2</url>
+				<authors>Hexosse</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
