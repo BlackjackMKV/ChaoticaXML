@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="http://files.mcupdater.com/official_packs/ServerPackv2.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2765">forge</Import>
 		<Module name="AE2 Stuff" id="ae2stuff" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download</URL>
@@ -231,8 +231,8 @@
 			<ModType>Regular</ModType>
 			<MD5>7a8768af41afd2d466bedac163607955</MD5>
 			<Meta>
-				<description>Brandon&apos;s Core is a library mod used by most of my mods. It is no longer a core mod as the name would suggest but it does still contain a lot of the core code used by my mods including but not limited to base classes for various tiles, blocks and items, A powerful modular gui system and a lot of other miscellaneous utilities.</description>
 				<credits></credits>
+				<description>Brandon&apos;s Core is a library mod used by most of my mods. It is no longer a core mod as the name would suggest but it does still contain a lot of the core code used by my mods including but not limited to base classes for various tiles, blocks and items, A powerful modular gui system and a lot of other miscellaneous utilities.</description>
 				<version>1.12.2-2.4.5.176</version>
 				<url>http://minecraft.curseforge.com/projects/brandons-core</url>
 				<authors>brandon3055</authors>
@@ -245,8 +245,8 @@
 			<ModType>Regular</ModType>
 			<MD5>b6e31a63675294bbe4f5d80787f80a35</MD5>
 			<Meta>
-				<description>A Game of Chance and Skill</description>
 				<credits>Funwayguy for the Icosahderon model and awesome rendering effects! https://twitter.com/Funwayguy</credits>
+				<description>A Game of Chance and Skill</description>
 				<version>1.12.2-3.2.2.237</version>
 				<url>http://minecraft.curseforge.com/mc-mods/233113-chance-cubes</url>
 				<authors>Turkey2349</authors>
@@ -265,8 +265,8 @@
 			<ModType>Regular</ModType>
 			<MD5>fdcdd42f9b56d25b51c061f8deb46713</MD5>
 			<Meta>
-				<description>A mod designed specifically for the Chaotica Redux server.</description>
 				<credits>The Chaotica Redux community for being awesome and inspiring me to ever greater heights!</credits>
+				<description>A mod designed specifically for the Chaotica Redux server.</description>
 				<version>1.01</version>
 				<url></url>
 				<authors>BlackjackMKV</authors>
@@ -279,8 +279,8 @@
 			<ModType>Regular</ModType>
 			<MD5>c930adfeaa59c7d846b440e11a101d97</MD5>
 			<Meta>
-				<description>Advanced chunkloading management</description>
 				<credits></credits>
+				<description>Advanced chunkloading management</description>
 				<version>2.4.1.73</version>
 				<url>http://www.minecraftforum.net/topic/909223</url>
 				<authors>ChickenBones</authors>
@@ -293,8 +293,8 @@
 			<ModType>Regular</ModType>
 			<MD5>230307e4a9924bdb5421bf1e635856aa</MD5>
 			<Meta>
-				<description>Chickens... lots of chickens.</description>
 				<credits>The Forge and FML guys, for making this example</credits>
+				<description>Chickens... lots of chickens.</description>
 				<version>6.0.4</version>
 				<url>http://minecraft.curseforge.com/projects/chickens</url>
 				<authors>SetyCz, Wyvi, GenDeathrow, LordCazsius</authors>
@@ -325,11 +325,11 @@
 			<ModType>Regular</ModType>
 			<MD5>dbda5475859bcffc9f572c5a1506a1f4</MD5>
 			<Meta>
-				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
 				<credits>AUTOMATIC_MAIDEN for the original mod,
 asie for porting to 1.7.2,
 and Pokenfenn/Cricket for continuing it in 1.7.
 This mod uses textures from the Painterly Pack: http://painterlypack.net/.</credits>
+				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
 				<version>MC1.12.2-0.2.1.35</version>
 				<url>https://minecraft.curseforge.com/projects/chisel</url>
 				<authors>tterrag, Drullkus, minecreatr</authors>
@@ -342,8 +342,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>acf5e7fb24fac9d285b4d74df565b27c</MD5>
 			<Meta>
-				<description>a mod about Sculpting, Decorating and Aesthetics</description>
 				<credits>AlgorithmX2</credits>
+				<description>a mod about Sculpting, Decorating and Aesthetics</description>
 				<version>14.24</version>
 				<url>http://minecraft.curseforge.com/projects/chisels-bits</url>
 				<authors>AlgorithmX2</authors>
@@ -356,8 +356,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>727689d86739f9dc987e05259de1a68d</MD5>
 			<Meta>
-				<description>Clumps xp orbs together .</description>
 				<credits></credits>
+				<description>Clumps xp orbs together .</description>
 				<version>3.1.1</version>
 				<url></url>
 				<authors>Jaredlll08</authors>
@@ -370,8 +370,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>f8b4843eccafb2213512ba9be17bfad2</MD5>
 			<Meta>
-				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
 				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
 				<version>3.2.2.353</version>
 				<url>http://chickenbones.net/Pages/links.html</url>
 				<authors>ChickenBones, covers1624</authors>
@@ -384,8 +384,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>6670912dc337991f2845001907212a2d</MD5>
 			<Meta>
-				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
 				<credits>Team CoFH</credits>
+				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
 				<version>4.5.3.20</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
@@ -398,8 +398,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>c62ac9be4542047c31d847a80d3955ea</MD5>
 			<Meta>
-				<description>Provides advanced and highly customizable world generation capabilities.</description>
 				<credits>Team CoFH</credits>
+				<description>Provides advanced and highly customizable world generation capabilities.</description>
 				<version>1.3.0.6</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
@@ -412,8 +412,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>1ed9c9ce0fa4967fa1f680e4af8aa119</MD5>
 			<Meta>
-				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
 				<credits></credits>
+				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
 				<version>1.12.2-1.1.1</version>
 				<url></url>
 				<authors>C4</authors>
@@ -426,8 +426,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>ca3fb924c8d9d213ace215d492d7b12b</MD5>
 			<Meta>
-				<description>Customize your minecraft experience!</description>
 				<credits>Created By StanHebben and Jaredlll08</credits>
+				<description>Customize your minecraft experience!</description>
 				<version>1.12-4.1.9</version>
 				<url>http://minetweaker3.powerofbytes.com</url>
 				<authors>StanHebben, Jaredlll08</authors>
@@ -440,8 +440,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>ae47db2db3a8210e4647a5145fd30b00</MD5>
 			<Meta>
-				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
 				<credits></credits>
+				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
 				<version>MC1.12.2-0.3.2.18</version>
 				<url>https://minecraft.curseforge.com/projects/ctm</url>
 				<authors>tterrag, Drullkus, minecreatr</authors>
@@ -454,8 +454,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>de33a15e3d859f953b5a61052ab341ab</MD5>
 			<Meta>
-				<description>The Custom Npcs mod lets you create your own npcs and lets you customize them how you want</description>
 				<credits>A lot of people, see the list at the forum</credits>
+				<description>The Custom Npcs mod lets you create your own npcs and lets you customize them how you want</description>
 				<version>1.12</version>
 				<url>http://tinyurl.com/customnpcs</url>
 				<authors>Noppes</authors>
@@ -474,8 +474,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>182ca96d56cd29bfa77df024605fb1da</MD5>
 			<Meta>
-				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
 				<credits>kroeserr, _EeB_</credits>
+				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
 				<version>1.12.2-0.11.10</version>
 				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
 				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
@@ -488,8 +488,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>fcc5854114dd4d8edc58a1f71d641ea9</MD5>
 			<Meta>
-				<description>Bend and twist reality itself, creating pocket dimensions, rifts, and much more</description>
 				<credits>Created by StevenRS11, Coded by StevenRS11 and SenseiKiwi, Logo and Testing by Jaitsu, Recent updates by Zixiken and Waterpicker</credits>
+				<description>Bend and twist reality itself, creating pocket dimensions, rifts, and much more</description>
 				<version>3.0.9</version>
 				<url>https://github.com/DimensionalDevelopment/DimDoors</url>
 				<authors>StevenRS11, SenseiKiwi, Zixiken, WaterPicker, Robijnvogel, ZombieHDGaming, Runemoro</authors>
@@ -502,8 +502,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>5b15173c1a4d3a48afa382857a1c0faa</MD5>
 			<Meta>
-				<description>Plays a sound once the client has loaded to the main menu or loaded the world</description>
 				<credits></credits>
+				<description>Plays a sound once the client has loaded to the main menu or loaded the world</description>
 				<version>1.12.1-1.0.1</version>
 				<url>http://ichun.me/mods/ding/</url>
 				<authors>iChun</authors>
@@ -516,8 +516,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>060a0998ff55cd214a90d0bd4dda8d9d</MD5>
 			<Meta>
-				<description>This is a mod that was originally made for the Tolkiencraft mod pack but it has since evolved way beyond that. This mod adds a lot of extremely expensive and powerful end game items as well as a lot of random useful bits and pieces.</description>
 				<credits></credits>
+				<description>This is a mod that was originally made for the Tolkiencraft mod pack but it has since evolved way beyond that. This mod adds a lot of extremely expensive and powerful end game items as well as a lot of random useful bits and pieces.</description>
 				<version>1.12.2-2.3.15.312</version>
 				<url>http://www.brandon3055.com/</url>
 				<authors>brandon3055</authors>
@@ -530,13 +530,13 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>0470f58304d625a33adbd7f195e9b6c6</MD5>
 			<Meta>
-				<description>Don&apos;t forget to right click the egg to make it hatch</description>
 				<credits>BarracudaATA4 - The Original Owner, 
    FlaemWing - for new nest block textures and dragonarmor item textures, 
    cesar_zorak - for dragon armor model textures,
    qnebra - for polish translation, 
    merpou - more textures much help :D Thanks Man...,
    AlexThe666 - for open source code,</credits>
+				<description>Don&apos;t forget to right click the egg to make it hatch</description>
 				<version>1.12-1.4.7</version>
 				<url>https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2878357-realm-of-the-dragons-1-10-2-1-12</url>
 				<authors>BarracudaATA, 
@@ -556,8 +556,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>9efd4dc81771e958392be50cfd620068</MD5>
 			<Meta>
-				<description>Dwarven-style Magitech Mod</description>
 				<credits></credits>
+				<description>Dwarven-style Magitech Mod</description>
 				<version>0.230</version>
 				<url></url>
 				<authors>Elucent, AlexisMachina, ShadowGamerXY, werty1124</authors>
@@ -570,8 +570,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>0721e9961113819a17a3cc443beea4ca</MD5>
 			<Meta>
-				<description>Provides a less random enchanting system.</description>
 				<credits>Maintained by Darkhax</credits>
+				<description>Provides a less random enchanting system.</description>
 				<version>5.0.169</version>
 				<url></url>
 				<authors>Darkhax, lclc98, xkyouchoux, odininon, GnR Slash</authors>
@@ -584,8 +584,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>1b0cf20dbb00ed0a291ed14dba10e0a4</MD5>
 			<Meta>
-				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
 				<credits>By CrazyPants, with the help of many</credits>
+				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
 				<version>5.0.33</version>
 				<url>http://enderio.com</url>
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
@@ -598,8 +598,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>f900046c11d7a5fab019003432e57db9</MD5>
 			<Meta>
-				<description>More Mobs</description>
 				<credits>By CrazyPants</credits>
+				<description>More Mobs</description>
 				<version>1.12.1-1.4.0.49</version>
 				<url>http://enderio.com</url>
 				<authors>crazypants</authors>
@@ -612,8 +612,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>5ecd16b6cc0145e33deb26018e1ab7ae</MD5>
 			<Meta>
-				<description>Library mod used by EnderIO, EnderZoo, and others</description>
 				<credits></credits>
+				<description>Library mod used by EnderIO, EnderZoo, and others</description>
 				<version>1.12.2-0.5.41</version>
 				<url>http://enderio.com</url>
 				<authors>tterrag, CrazyPants, HenryLoenwind</authors>
@@ -626,8 +626,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>9808c8d5d003ee140416aa3b6b632da5</MD5>
 			<Meta>
-				<description>Discover, share and conquer abilities that stick.</description>
 				<credits>rubensworks (aka kroeserr)</credits>
+				<description>Discover, share and conquer abilities that stick.</description>
 				<version>1.12.2-1.3.18</version>
 				<url>https://github.com/CyclopsMC/EverlastingAbilities</url>
 				<authors>rubensworks (aka kroeserr)</authors>
@@ -646,8 +646,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>08c549134afadfe0ee4d644dc155212f</MD5>
 			<Meta>
-				<description>Ex Nihilo Addon. Adds compressed hammers, automatic sieves and hammerers, wooden crucibles, ...</description>
 				<credits>Blay and her Patrons for being diligent sifters</credits>
+				<description>Ex Nihilo Addon. Adds compressed hammers, automatic sieves and hammerers, wooden crucibles, ...</description>
 				<version>3.0.26</version>
 				<url></url>
 				<authors>BlayTheNinth</authors>
@@ -660,8 +660,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>6bddaeae145f71da6a7837074507d260</MD5>
 			<Meta>
-				<description>&quot;From nothing, with progression&quot;</description>
 				<credits>Insaneau, for, you know, being the author, and SnakeFang12 for, like, doing a bunch of stuff. Also OhYea777 for porting to 1.11.2. Plus Jacky1356400 and BloodWorkXGaming for porting to 1.12.</credits>
+				<description>&quot;From nothing, with progression&quot;</description>
 				<version>1.12-0.2.4</version>
 				<url></url>
 				<authors>Insaneau, OhYea777, Jacky1356400, BloodWorkXGaming</authors>
@@ -674,8 +674,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>490b3590162b7a0582311d17ba97f5bf</MD5>
 			<Meta>
-				<description>Adds new ME Storage Cells and some other cool stuff to AE 2.</description>
 				<credits>Textures by PaleoCrafter and Cyntain</credits>
+				<description>Adds new ME Storage Cells and some other cool stuff to AE 2.</description>
 				<version>2.5.13</version>
 				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289077-ae-add-on-m3gas-extracells-2-1-x-2-2-x</url>
 				<authors>M3gaFr3ak, DrummerMC</authors>
@@ -688,8 +688,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>d6e0e067874abeb7c199dcaba6a021ab</MD5>
 			<Meta>
-				<description>A bunch of useful things.</description>
 				<credits></credits>
+				<description>A bunch of useful things.</description>
 				<version>${version}</version>
 				<url></url>
 				<authors>RWTema</authors>
@@ -702,8 +702,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>b73ceb3ca10769540aab826a9326b7bf</MD5>
 			<Meta>
-				<description>1 fast boi</description>
 				<credits></credits>
+				<description>1 fast boi</description>
 				<version>1.12.2-1.5.3</version>
 				<url></url>
 				<authors>Shadows_of_Fire</authors>
@@ -716,8 +716,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>9b83a0101911e1f761153017b517dc0d</MD5>
 			<Meta>
-				<description>Create Wireless Energy Networks</description>
 				<credits>Created by Ollie Lansdell</credits>
+				<description>Create Wireless Energy Networks</description>
 				<version>1.12.2-3.0.16-11</version>
 				<url></url>
 				<authors>Ollie Lansdell</authors>
@@ -730,8 +730,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>28651bdf2c751d2d0255ee790b8180e7</MD5>
 			<Meta>
-				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
 				<credits></credits>
+				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
 				<version>@VERSION@</version>
 				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
 				<authors>asiekierka</authors>
@@ -744,8 +744,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>6f45a5552ea322d4419660682d195765</MD5>
 			<Meta>
-				<description>Minecraft GUI library.</description>
 				<credits></credits>
+				<description>Minecraft GUI library.</description>
 				<version>1.12.2-1.0.0.0-beta1</version>
 				<url>https://github.com/kamildanak/Foamflower</url>
 				<authors>kamildanak</authors>
@@ -758,8 +758,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>82dcf68ad90a1bee85e56bb274e8c15c</MD5>
 			<Meta>
-				<description>Open source library for facilitation of multiple functional parts in the one block space.</description>
 				<credits></credits>
+				<description>Open source library for facilitation of multiple functional parts in the one block space.</description>
 				<version>2.5.0.71</version>
 				<url>https://github.com/Chicken-Bones/ForgeMultipart</url>
 				<authors>ChickenBones</authors>
@@ -772,8 +772,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>998d9b909a9e2b369cc32dc867bc0770</MD5>
 			<Meta>
-				<description>Simple mod guide creation.</description>
 				<credits></credits>
+				<description>Simple mod guide creation.</description>
 				<version>1.12-2.1.6-61</version>
 				<url></url>
 				<authors>Tombenpotter, TehNut</authors>
@@ -786,8 +786,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>1c97de6ed8dd31f0e93476dc2f1091df</MD5>
 			<Meta>
-				<description>Dont waste those eggs anymore! Become your own chicken farmer!</description>
 				<credits>Darkosto, Mezz, Vadis365</credits>
+				<description>Dont waste those eggs anymore! Become your own chicken farmer!</description>
 				<version>2.1.4</version>
 				<url>https://minecraft.curseforge.com/projects/hatchery</url>
 				<authors>GenDeathrow</authors>
@@ -800,8 +800,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>d0a1b797919d8e35c1921d6f35e29417</MD5>
 			<Meta>
-				<description>Mod that allows for mods to add in-game documentation.</description>
 				<credits></credits>
+				<description>Mod that allows for mods to add in-game documentation.</description>
 				<version>1.4.4-15</version>
 				<url>www.minemaarten.com</url>
 				<authors>MineMaarten</authors>
@@ -814,8 +814,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
 			<Meta>
-				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
 				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
 				<version>1.63+release.109.220f184</version>
 				<url>https://github.com/Kobata/inventory-tweaks</url>
 				<authors>Jimeo Wan, Kobata</authors>
@@ -828,8 +828,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>f1a23cb6eaa682240c0ecdab65e7857f</MD5>
 			<Meta>
-				<description>This is a framework that I mostly use in my own mods, for shared functionality.</description>
 				<credits></credits>
+				<description>This is a framework that I mostly use in my own mods, for shared functionality.</description>
 				<version>1.3.3-1.12</version>
 				<url>http://minecraft.curseforge.com/projects/ivtoolkit</url>
 				<authors>Ivorius</authors>
@@ -842,8 +842,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>de73cdc5de95a2685e50d90f01c03a50</MD5>
 			<Meta>
-				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
 				<credits>A huge thank you to Tonius for originally creating this amazing mod. I hope it lives up to his standards in his absence.</credits>
+				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
 				<version>1.5.1.36</version>
 				<url>https://minecraft.curseforge.com/projects/jei-integration</url>
 				<authors>SnowShock35</authors>
@@ -856,8 +856,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>b743562dac1b5334c20ac87b54c0b518</MD5>
 			<Meta>
-				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2017-11-08-19:54:02.</description>
 				<credits></credits>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2017-11-08-19:54:02.</description>
 				<version>1.12.2-5.5.2</version>
 				<url>http://journeymap.info</url>
 				<authors>techbrew, mysticdrew</authors>
@@ -870,8 +870,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>7484928be203b32c0d4af2df9914dbc3</MD5>
 			<Meta>
-				<description>Simple recipe and item helper.</description>
 				<credits></credits>
+				<description>Simple recipe and item helper.</description>
 				<version>4.12.1.217</version>
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
@@ -884,8 +884,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>27533ed3008d56108ea637195e485c33</MD5>
 			<Meta>
-				<description>Adds Resources and Mob Drops to JEI</description>
 				<credits></credits>
+				<description>Adds Resources and Mob Drops to JEI</description>
 				<version>0.8.5</version>
 				<url></url>
 				<authors>way2muchnoise</authors>
@@ -898,8 +898,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>a0b6ee72d9c8da3223a0aa6e49588abc</MD5>
 			<Meta>
-				<description>The lightweight Minecraft modding library</description>
 				<credits>pau101, BobMowzie, FiskFille, TheCyberBrick, WorldSEnder</credits>
+				<description>The lightweight Minecraft modding library</description>
 				<version>1.7.15-1.12.2</version>
 				<url>https://github.com/iLexiconn/LLibrary</url>
 				<authors>iLexiconn, gegy1000</authors>
@@ -912,8 +912,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>6302e60ef37ff5a517cd5434ef6f039a</MD5>
 			<Meta>
-				<description>Lost Soul addon mod for The Lost Cities</description>
 				<credits></credits>
+				<description>Lost Soul addon mod for The Lost Cities</description>
 				<version>1.12-1.1.4</version>
 				<url></url>
 				<authors>McJty</authors>
@@ -932,8 +932,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>e2cd9d3d5ad2078062c91f9c33fd215c</MD5>
 			<Meta>
-				<description>Shared code for Slime Knights mods and others.</description>
 				<credits>mDiyo, Sunstrike</credits>
+				<description>Shared code for Slime Knights mods and others.</description>
 				<version>1.3.2.24</version>
 				<url>https://github.com/SlimeKnights/Mantle</url>
 				<authors>boni, progWML6, Alexbegt</authors>
@@ -946,8 +946,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>bf6d861193adb5d51f9eabe072bcd840</MD5>
 			<Meta>
-				<description>Energy, Armor, Tools, Weapons, Machines, Magic.</description>
 				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<description>Energy, Armor, Tools, Weapons, Machines, Magic.</description>
 				<version>1.12.2-9.4.13.349</version>
 				<url></url>
 				<authors>aidancbrady</authors>
@@ -960,8 +960,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>036cfdbdca2b8432ba9b86cccbce8c55</MD5>
 			<Meta>
-				<description>Generators module of Mekanism.</description>
 				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<description>Generators module of Mekanism.</description>
 				<version>1.12.2-9.4.13.349</version>
 				<url></url>
 				<authors>aidancbrady</authors>
@@ -974,8 +974,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>b47939b2d81b02670cf9803626a72fd5</MD5>
 			<Meta>
-				<description>Tools module for Mekanism.</description>
 				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<description>Tools module for Mekanism.</description>
 				<version>1.12.2-9.4.13.349</version>
 				<url></url>
 				<authors>aidancbrady</authors>
@@ -993,8 +993,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>57256707133320f6dd7edd9230466982</MD5>
 			<Meta>
-				<description>Adds moar tinker materials and traits!</description>
 				<credits>Boni for Tinkers Construct 2. YaibaToKen for a rewrite!</credits>
+				<description>Adds moar tinker materials and traits!</description>
 				<version>0.6.0</version>
 				<url></url>
 				<authors>Bartz24</authors>
@@ -1007,8 +1007,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>d689c554bb2c4b64228a652e06c94410</MD5>
 			<Meta>
-				<description>A mod which adds Mob Totems to the game. Craft these totems and ward off evil mobs and more.</description>
 				<credits>Thanks to pahimar for his let&apos;s mod reboot series. Thanks to whatthedrunk and gourdguru for ideas &amp; encouragement.</credits>
+				<description>A mod which adds Mob Totems to the game. Craft these totems and ward off evil mobs and more.</description>
 				<version>0.3.0</version>
 				<url>https://github.com/CorwinJV/MobTotems</url>
 				<authors>CorwinJV</authors>
@@ -1021,8 +1021,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>96fc5aca484b41b4dbe08ea044082e1a</MD5>
 			<Meta>
-				<description>Adds Tinkers Construct and Draconic Evolution chickens for Chickens Mod</description>
 				<credits>Chickens Mod, GameWalker, ACGaming, MrAmericanMike</credits>
+				<description>Adds Tinkers Construct and Draconic Evolution chickens for Chickens Mod</description>
 				<version>3.1.0</version>
 				<url>https://minecraft.curseforge.com/projects/more-chickens</url>
 				<authors>GenDeathrow</authors>
@@ -1035,8 +1035,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>3b199ebf54475d8ab7fb1bd069325478</MD5>
 			<Meta>
-				<description>The wrench to end all wrenches.</description>
 				<credits></credits>
+				<description>The wrench to end all wrenches.</description>
 				<version>1.2-16</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii</authors>
@@ -1049,8 +1049,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>6beb6c9b45a6526106f728ec35508a0c</MD5>
 			<Meta>
-				<description>Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.</description>
 				<credits></credits>
+				<description>Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.</description>
 				<version>1.12-3.3.2</version>
 				<url>http://www.curse.com/mc-mods/Minecraft/morpheus</url>
 				<authors>Quetzi</authors>
@@ -1063,8 +1063,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
 			<Meta>
-				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
 				<credits>Various open-source mods from where I learned.</credits>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
 				<version>2.8</version>
 				<url>http://www.minecraftforum.net/topic/1518185-</url>
 				<authors>YaLTeR</authors>
@@ -1077,8 +1077,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>1442cc118c3c694121bf717a1d5b95c1</MD5>
 			<Meta>
-				<description>Core libs and utilities</description>
 				<credits></credits>
+				<description>Core libs and utilities</description>
 				<version>2.1.3.35</version>
 				<url>...</url>
 				<authors>MrTJP, covers1624</authors>
@@ -1091,8 +1091,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>c4fa33c05a45db33c5dd0fa6bec82c61</MD5>
 			<Meta>
-				<description>Removes the Recipe Book button from the player inventory and crafting table GUI.</description>
 				<credits></credits>
+				<description>Removes the Recipe Book button from the player inventory and crafting table GUI.</description>
 				<version>1.2.1</version>
 				<url></url>
 				<authors>Luwin</authors>
@@ -1105,8 +1105,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>f434600917530b05abfa24b3156d3f45</MD5>
 			<Meta>
-				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.&lt;plugins&gt;&lt;supporters&gt;</description>
 				<credits>Alexandria - original idea</credits>
+				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.&lt;plugins&gt;&lt;supporters&gt;</description>
 				<version>2.4.1.239</version>
 				<url>http://www.minecraftforum.net/topic/909223</url>
 				<authors>ChickenBones</authors>
@@ -1119,8 +1119,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>222aa7b352c048346dc05ca3b3836b97</MD5>
 			<Meta>
-				<description>Lib for OMT and its companion mods!</description>
 				<credits>Keridos</credits>
+				<description>Lib for OMT and its companion mods!</description>
 				<version>3.0.1-162</version>
 				<url></url>
 				<authors>Poenjabiesous, Keridos</authors>
@@ -1133,8 +1133,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>77640deb178effc88a682ab313390948</MD5>
 			<Meta>
-				<description>All a man needs are meat ingots, and big ass turrets. Adds a heap of new turrets and upgrades!</description>
 				<credits>Poenjabiesous</credits>
+				<description>All a man needs are meat ingots, and big ass turrets. Adds a heap of new turrets and upgrades!</description>
 				<version>3.0.1-264</version>
 				<url></url>
 				<authors>Poenjabiesous, UntouchedWagons, Keridos</authors>
@@ -1147,8 +1147,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>c6aafd334a6459705ca789ff16322935</MD5>
 			<Meta>
-				<description>All the things you never thought you will ever need</description>
 				<credits></credits>
+				<description>All the things you never thought you will ever need</description>
 				<version>1.8</version>
 				<url>http://openmods.info/</url>
 				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
@@ -1161,8 +1161,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>45ee059c7e7a4c5ff9e9662f82a9c523</MD5>
 			<Meta>
-				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
 				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
+				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
 				<version>1.7.2.67</version>
 				<url>http://oc.cil.li/</url>
 				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
@@ -1175,8 +1175,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>032a100e3613002a739d20b681a45ed5</MD5>
 			<Meta>
-				<description>Boring stuff for all that silly Open* mods</description>
 				<credits></credits>
+				<description>Boring stuff for all that silly Open* mods</description>
 				<version>0.12</version>
 				<url>https://openmods.info/</url>
 				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
@@ -1189,8 +1189,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>c3607afdd21e55aeb8a601f23c13a246</MD5>
 			<Meta>
-				<description>A customizable ore-spawning system that uses JSON files to specify custom ore generation</description>
 				<credits>The MMD community</credits>
+				<description>A customizable ore-spawning system that uses JSON files to specify custom ore generation</description>
 				<version>3.3.0</version>
 				<url></url>
 				<authors>dshadowwolf, iLexiconn, jriwanek, DrCyano</authors>
@@ -1209,8 +1209,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>fc4183af6720617bc5df8cda3ba2e308</MD5>
 			<Meta>
-				<description>Changes the recipes from Pam&apos;s Harvestcraft back to cooking</description>
 				<credits></credits>
+				<description>Changes the recipes from Pam&apos;s Harvestcraft back to cooking</description>
 				<version>1.1</version>
 				<url></url>
 				<authors>BloodWorkXGaming</authors>
@@ -1223,8 +1223,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>bcc0399e9de682b489dc7c41753f52dd</MD5>
 			<Meta>
-				<description>Expanding minecraft&apos;s food system.</description>
 				<credits></credits>
+				<description>Expanding minecraft&apos;s food system.</description>
 				<version>1.12a</version>
 				<url>http://minecraft.curseforge.com/members/MatrexsVigil/projects</url>
 				<authors>Pamela Collins</authors>
@@ -1237,8 +1237,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>a83cef4678dab93abb720065b6de5184</MD5>
 			<Meta>
-				<description>Tinkers&apos; Construct Integration Addon</description>
 				<credits>Forge, FML &amp; all of the wonderful authors of Tinkers&apos; Construct.</credits>
+				<description>Tinkers&apos; Construct Integration Addon</description>
 				<version>1.1.4</version>
 				<url></url>
 				<authors>Ejektaflex</authors>
@@ -1251,8 +1251,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>73afd629943bb33cf2f26965e43e6b69</MD5>
 			<Meta>
-				<description>Add new tools to and integrate various mods with Tinker&apos;s Construct</description>
 				<credits>Bonii-xx, KnightMiner, and alexbegt for TiC, and McJty for CompatLayer, which makes this mod compatible with both 1.10.2 and 1.11.2</credits>
+				<description>Add new tools to and integrate various mods with Tinker&apos;s Construct</description>
 				<version>6.5.2.0</version>
 				<url>https://minecraft.curseforge.com/projects/plustic</url>
 				<authors>Landmaster (phuong0429)</authors>
@@ -1265,8 +1265,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>850041255fa6b555f4f4c53c26dc9f08</MD5>
 			<Meta>
-				<description></description>
 				<credits></credits>
+				<description></description>
 				<version>4.9.1.92</version>
 				<url></url>
 				<authors></authors>
@@ -1279,8 +1279,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>d70bc67baad5c7739f39b88f22182450</MD5>
 			<Meta>
-				<description>Redstone. The way it was meant to be.</description>
 				<credits>Eloraam, GitHub contributors</credits>
+				<description>Redstone. The way it was meant to be.</description>
 				<version>4.9.1.92</version>
 				<url>http://projectredwiki.com</url>
 				<authors>MrTJP, ChickenBones, covers1624</authors>
@@ -1293,8 +1293,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>206c601a3800e3ff0e21763f2e9e8b9c</MD5>
 			<Meta>
-				<description></description>
 				<credits></credits>
+				<description></description>
 				<version>4.9.1.92</version>
 				<url></url>
 				<authors></authors>
@@ -1307,8 +1307,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>6d048f2e2eff31376f0f6668e761f5d5</MD5>
 			<Meta>
-				<description></description>
 				<credits></credits>
+				<description></description>
 				<version>4.9.1.92</version>
 				<url></url>
 				<authors></authors>
@@ -1321,8 +1321,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>30830faa0777da6f0104acd3aaf336ce</MD5>
 			<Meta>
-				<description></description>
 				<credits></credits>
+				<description></description>
 				<version>4.9.1.92</version>
 				<url></url>
 				<authors></authors>
@@ -1335,8 +1335,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>730390ea1cb64c8bc50c98bcd8ed6b8c</MD5>
 			<Meta>
-				<description></description>
 				<credits></credits>
+				<description></description>
 				<version>4.9.1.92</version>
 				<url></url>
 				<authors></authors>
@@ -1349,8 +1349,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>b09e19b2005c2c48fd3001703d3e425d</MD5>
 			<Meta>
-				<description></description>
 				<credits></credits>
+				<description></description>
 				<version>4.9.1.92</version>
 				<url></url>
 				<authors></authors>
@@ -1363,8 +1363,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>92aec994592bfcad6f09c810a2e9efb8</MD5>
 			<Meta>
-				<description>Psionic Spellcasting Instruments</description>
 				<credits></credits>
+				<description>Psionic Spellcasting Instruments</description>
 				<version>r1.1-59</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii</authors>
@@ -1383,8 +1383,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>e4120ed56ca7cb337f7dbb7e228f9ca6</MD5>
 			<Meta>
-				<description>Random useful additions to PSI!</description>
 				<credits>The guys over at PSI: Taurus Silver discord and Vazkii, wiresegal for PSIonic Upgrades and Quat for porting PSIonic upgrades</credits>
+				<description>Random useful additions to PSI!</description>
 				<version>1.8b</version>
 				<url></url>
 				<authors>Kamefrede</authors>
@@ -1397,8 +1397,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>9866af0a0800169665061e3aa1d75aff</MD5>
 			<Meta>
-				<description>A bunch of miscellaneous patches for Minecraft.</description>
 				<credits></credits>
+				<description>A bunch of miscellaneous patches for Minecraft.</description>
 				<version>1.12.2-1.5.0.4</version>
 				<url>https://minecraft.curseforge.com/projects/randompatches</url>
 				<authors>TheRandomLabs</authors>
@@ -1411,8 +1411,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>e24a945437b369d6e66fc9075a214f97</MD5>
 			<Meta>
-				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
 				<credits></credits>
+				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
 				<version>3.10.1.335</version>
 				<url>https://github.com/TechReborn/RebornCore</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
@@ -1425,8 +1425,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>a4033c25cad58e021d0479768665c8b9</MD5>
 			<Meta>
-				<description>Adds structures to worldgen, handles exporting and importing structures, and provides build tools.</description>
 				<credits>See structurecredits.txt for full default structure list credits.</credits>
+				<description>Adds structures to worldgen, handles exporting and importing structures, and provides build tools.</description>
 				<version>1.4.7</version>
 				<url></url>
 				<authors>Ivorius</authors>
@@ -1439,8 +1439,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>0d15cc1e59c8028cf17f6a78bda460dc</MD5>
 			<Meta>
-				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
 				<credits>Team CoFH</credits>
+				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
 				<version>2.0.2.3</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
@@ -1453,8 +1453,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>35457c3d5b1e8668fd9ef4d7b93bb26f</MD5>
 			<Meta>
-				<description>Druidic magic mod.</description>
 				<credits></credits>
+				<description>Druidic magic mod.</description>
 				<version>0.104</version>
 				<url></url>
 				<authors>Elucent, AlexisMachina, werty1124, SirShadow</authors>
@@ -1467,8 +1467,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>919025ce1728d06f692e71b764262fa7</MD5>
 			<Meta>
-				<description>Extra health for players and/or mobs!</description>
 				<credits></credits>
+				<description>Extra health for players and/or mobs!</description>
 				<version>1.3.30</version>
 				<url>https://minecraft.curseforge.com/projects/scaling-health</url>
 				<authors>SilentChaos512</authors>
@@ -1481,8 +1481,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>cc1669f62afadb593747853ab5865cab</MD5>
 			<Meta>
-				<description>A simple item for rendering schematics</description>
 				<credits>All the people who have worked on minecraft schematics</credits>
+				<description>A simple item for rendering schematics</description>
 				<version>1.12.2.12</version>
 				<url>https://minecraft.curseforge.com/projects/schematics</url>
 				<authors>Dom Amato</authors>
@@ -1501,8 +1501,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>d853b4060cf429ce7765a750501de764</MD5>
 			<Meta>
-				<description>This mod adds a variety of cool blocks that camouflage themselves to the surrounding world. All of these blocks have extremely useful functions that allow you to simply hide your diamonds, or punish all who dare try to get to them. Hidden doors, pressure plates, hidden levers and more!</description>
 				<credits>Originally made by AbrarSyed. Rewritten for 1.12.2 by Wyn Price</credits>
+				<description>This mod adds a variety of cool blocks that camouflage themselves to the surrounding world. All of these blocks have extremely useful functions that allow you to simply hide your diamonds, or punish all who dare try to get to them. Hidden doors, pressure plates, hidden levers and more!</description>
 				<version>5.6.4</version>
 				<url></url>
 				<authors>Wyn Price</authors>
@@ -1515,8 +1515,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>0ab4c2ac9bc3bc2f6c4929b70a7bf7d2</MD5>
 			<Meta>
-				<description>Kotlin helper library for Forge.</description>
 				<credits>Emberwalker, for the original Forgelin</credits>
+				<description>Kotlin helper library for Forge.</description>
 				<version>1.7.4</version>
 				<url>https://github.com/shadowfacts/Forgelin</url>
 				<authors>shadowfacts</authors>
@@ -1529,8 +1529,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>315e0409ecc9e9be514bf71cb35292af</MD5>
 			<Meta>
-				<description>Shared library for SilentChaos512&apos;s mods.</description>
 				<credits></credits>
+				<description>Shared library for SilentChaos512&apos;s mods.</description>
 				<version>3.0.6</version>
 				<url>https://minecraft.curseforge.com/projects/silent-lib</url>
 				<authors>SilentChaos512</authors>
@@ -1543,8 +1543,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>823b052e76a0fa655a7c8e04622126c0</MD5>
 			<Meta>
-				<description>Generate Skylands World</description>
 				<credits>I have no idea of what I doing</credits>
+				<description>Generate Skylands World</description>
 				<version>1.5.5</version>
 				<url></url>
 				<authors>Frinn</authors>
@@ -1575,8 +1575,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>df4f427736fee5897cf560467f2a1b0c</MD5>
 			<Meta>
-				<description>Solar Panels producing Forge Energy</description>
 				<credits></credits>
+				<description>Solar Panels producing Forge Energy</description>
 				<version>4.14r</version>
 				<url></url>
 				<authors>Zeitheron</authors>
@@ -1589,8 +1589,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>92aa084015a739f7567ef725af3528c5</MD5>
 			<Meta>
-				<description>Sonar&apos;s Modding Framework</description>
 				<credits>Created by Ollie Lansdell</credits>
+				<description>Sonar&apos;s Modding Framework</description>
 				<version>1.12.2-5.0.16-16</version>
 				<url></url>
 				<authors>Ollie Lansdell</authors>
@@ -1603,8 +1603,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>3f511e4b898c319c2701b1486c9024bf</MD5>
 			<Meta>
-				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
 				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
+				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
 				<version>2.17.4.824</version>
 				<url>https://github.com/TechReborn/TechReborn</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
@@ -1617,8 +1617,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>1a9ebee45b2ca0403742ba7dfbe96f94</MD5>
 			<Meta>
-				<description>The Lost Cities World Generator</description>
 				<credits></credits>
+				<description>The Lost Cities World Generator</description>
 				<version>1.12-2.0.11</version>
 				<url></url>
 				<authors>McJty</authors>
@@ -1631,8 +1631,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>82d0bf008f5e48a6efca3f7739982351</MD5>
 			<Meta>
-				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
 				<credits>Team CoFH</credits>
+				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
 				<version>2.5.1.14</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
@@ -1645,8 +1645,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>d2fd230e7ee573974b5964d8647b76df</MD5>
 			<Meta>
-				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
 				<credits>Team CoFH</credits>
+				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
 				<version>5.5.0.29</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
@@ -1659,8 +1659,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>cb0ff0d6af0627792bdaaa23541dcad8</MD5>
 			<Meta>
-				<description>The Foundation of a Thermally enhanced world!</description>
 				<credits>Team CoFH</credits>
+				<description>The Foundation of a Thermally enhanced world!</description>
 				<version>2.5.0.19</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
@@ -1673,8 +1673,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>aeba5c7da48676eeea7d8e6ee379ab6f</MD5>
 			<Meta>
-				<description></description>
 				<credits></credits>
+				<description></description>
 				<version>0.1.4</version>
 				<url></url>
 				<authors>YaibaToKen</authors>
@@ -1687,8 +1687,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>52e33e408b27de0147a0154da1771eb6</MD5>
 			<Meta>
-				<description>A small mod that gives your tools XP and awards extra modifiers on levelup</description>
 				<credits></credits>
+				<description>A small mod that gives your tools XP and awards extra modifiers on levelup</description>
 				<version>1.12.2-1.0.5</version>
 				<url>https://github.com/SlimeKnights/TinkersToolLeveling</url>
 				<authors>boni</authors>
@@ -1701,8 +1701,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>59cef77d6e9a3ca3db31ac53c376ff1a</MD5>
 			<Meta>
-				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
 				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
+				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
 				<version>1.12.2-2.10.1.87</version>
 				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
 				<authors>boni, KnightMiner</authors>
@@ -1715,8 +1715,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>9a0caa213e0fc6d08004ec66b48285b6</MD5>
 			<Meta>
-				<description>Cobblegens, Growth Crystals and Watering Cans and more oh my!</description>
 				<credits></credits>
+				<description>Cobblegens, Growth Crystals and Watering Cans and more oh my!</description>
 				<version>3.2.31</version>
 				<url>https://www.patreon.com/kashdeya</url>
 				<authors>Kashdeya, Darkosto, GenDeathrow, ArclightTW</authors>
@@ -1729,11 +1729,11 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>86b64027801bfb2431bd80aa9eb3bf6e</MD5>
 			<Meta>
-				<description>a mod about unifying all the things.</description>
 				<credits>Mojang for creating Minecraft.
 Forge/FML for creating this awesome modding platform.
 The creators of every mod that UniDict interacts.
 All the users of UniDict.</credits>
+				<description>a mod about unifying all the things.</description>
 				<version>1.12.2-2.7b</version>
 				<url>http://minecraft.curseforge.com/projects/unidict</url>
 				<authors>WanionCane</authors>
@@ -1746,8 +1746,8 @@ All the users of UniDict.</credits>
 			<ModType>Regular</ModType>
 			<MD5>a89b3bbf606f97572f78daf5bb734c77</MD5>
 			<Meta>
-				<description>Adds a vending block that lets you sell items.</description>
 				<credits></credits>
+				<description>Adds a vending block that lets you sell items.</description>
 				<version>1.12.2-3.0.1.2</version>
 				<url></url>
 				<authors>AUTOMATIC_MAIDEN, kamildanak</authors>
@@ -1760,8 +1760,8 @@ All the users of UniDict.</credits>
 			<ModType>Regular</ModType>
 			<MD5>bca1c069d9171d331d211d24e8a3b770</MD5>
 			<Meta>
-				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
 				<credits></credits>
+				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
 				<version>1.8.26</version>
 				<url></url>
 				<authors>ProfMobius, TehNut</authors>
@@ -1774,8 +1774,8 @@ All the users of UniDict.</credits>
 			<ModType>Regular</ModType>
 			<MD5>f0c6e0afb5383ed0653db531dd12c732</MD5>
 			<Meta>
-				<description>Shared Code Library Used by (not)all WanionCane mods!</description>
 				<credits></credits>
+				<description>Shared Code Library Used by (not)all WanionCane mods!</description>
 				<version>1.12.2-1.5</version>
 				<url>http://minecraft.curseforge.com/projects/wanionlib</url>
 				<authors>WanionCane</authors>
@@ -1788,8 +1788,8 @@ All the users of UniDict.</credits>
 			<ModType>Regular</ModType>
 			<MD5>fb4c1afede84eafbbf0ea03889734075</MD5>
 			<Meta>
-				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
 				<credits>ProfMobius for making the Waila mod.</credits>
+				<description>Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!</description>
 				<version>2.5.261</version>
 				<url>https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at</url>
 				<authors>Darkhax</authors>
@@ -1802,8 +1802,8 @@ All the users of UniDict.</credits>
 			<ModType>Regular</ModType>
 			<MD5>c2932a2c8fe8f9a482745cec8c53e5e0</MD5>
 			<Meta>
-				<description>The Wings mod introduces an assortment of avian and insectoid wings for all of your aerial travel needs.</description>
 				<credits>LDShadowLady for concept design</credits>
+				<description>The Wings mod introduces an assortment of avian and insectoid wings for all of your aerial travel needs.</description>
 				<version>1.1.0</version>
 				<url>https://minecraft.curseforge.com/projects/wings</url>
 				<authors>pau101</authors>
@@ -1828,8 +1828,8 @@ All the users of UniDict.</credits>
 			<ModType>Regular</ModType>
 			<MD5>de1eb987ae68dc49b704fcb3edeea4e0</MD5>
 			<Meta>
-				<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
 				<credits>Thanks to LoadingByte for maintaining and updating GuiLib. Thnaks to Zyin&apos;s for releasing his code.</credits>
+				<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
 				<version>2.1.2-mf-1.12-14.21.1.2387</version>
 				<url>https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2</url>
 				<authors>Hexosse</authors>
@@ -1877,34 +1877,6 @@ All the users of UniDict.</credits>
 				<authors>xalcon</authors>
 			</Meta>
 		</Module>
-		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/ftblib/files/2639297/download</URL>
-			<Size>879619</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>f60b9ff6a198db2cac2e7d62005e30fe</MD5>
-			<Meta>
-				<credits></credits>
-				<description></description>
-				<version>5.3.1.59</version>
-				<url>http://minecraft.curseforge.com/projects/ftblib</url>
-				<authors>LatvianModder</authors>
-			</Meta>
-		</Module>
-		<Module name="FTB Utilities" id="ftbutilities" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/ftb-utilities/files/2639300/download</URL>
-			<Size>423722</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>9d3c177d8e7cd203f23cf880c68ad032</MD5>
-			<Meta>
-				<credits></credits>
-				<description></description>
-				<version>5.3.0.54</version>
-				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
-				<authors>LatvianModder</authors>
-			</Meta>
-		</Module>
 		<Module name="Bibliotheca" id="bibliotheca" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/bibliotheca/files/2564244/download</URL>
 			<Size>187046</Size>
@@ -1917,6 +1889,34 @@ All the users of UniDict.</credits>
 				<version>1.3.3-1.12.2</version>
 				<url>https://minecraft.curseforge.com/projects/bibliotheca</url>
 				<authors>EwyBoy</authors>
+			</Meta>
+		</Module>
+		<Module name="FTB Utilities" id="ftbutilities" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ftb-utilities/files/2640441/download</URL>
+			<Size>423773</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b7f6a8cdf22efbc26e307e7393c55cfc</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.3.0.56</version>
+				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
+		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ftblib/files/2640017/download</URL>
+			<Size>879604</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7eca707f7fc005a871576f20581ce6c6</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.3.1.60</version>
+				<url>http://minecraft.curseforge.com/projects/ftblib</url>
+				<authors>LatvianModder</authors>
 			</Meta>
 		</Module>
 	</Server>
