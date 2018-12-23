@@ -1,0 +1,192 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:textures/title.png",
+            "posX" : -170,
+            "posY" : 25,
+            "width" : 350,
+            "height" : 70,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"texture" : "modpack:textures/mediumbutton.png",
+            "posX" : -65,
+            "posY" : 40,
+            "width" : 135,
+            "height" : 25,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"texture" : "modpack:textures/mediumbutton.png",
+            "posX" : -65,
+            "posY" : 70,
+            "width" : 135,
+            "height" : 25,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "texture" : "modpack:textures/mediumbutton.png",
+            "posX" : -65,
+            "posY" : 100,
+            "width" : 135,
+            "height" : 25,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+			"texture" : "modpack:textures/smallbutton.png",
+            "posX" : -90,
+            "posY" : 132,
+            "width" : 87,
+            "height" : 25,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+			"texture" : "modpack:textures/smallbutton.png",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 87,
+            "height" : 25,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+			"texture" : "modpack:textures/languagebutton.png",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 25,
+            "height" : 25,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+			"texture" : "modpack:textures/refreshbutton.png",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 25,
+            "height" : 25,
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+		
+		"site":
+		{
+			"text" : "Website",
+			"texture" : "modpack:textures/smallbutton.png",
+			"posX" : 125,
+            "posY" : 100,
+			"width" : 87,
+            "height" : 25,
+			"action" :
+			{
+				"type" : "openLink",
+				"link" : "https://runicpony.enjin.com/"
+			}
+		},
+		
+		"discord":
+		{
+			"text" : "Discord",
+			"texture" : "modpack:textures/smallbutton.png",
+			"posX" : 125,
+            "posY" : 132,
+			"width" : 87,
+            "height" : 25,
+			"action" :
+			{
+				"type" : "openLink",
+				"link" : "https://discord.gg/YRnq9Et"
+			}
+		}
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 150,
+            "posY" : 90,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:modpack:text/splashtext.txt"
+        },
+		
+		"background":
+		{
+			"image" : "",
+			"slideshow":
+			{
+				"images" : ["modpack:images/slide1.png", "modpack:images/slide2.png", "modpack:images/slide3.png", "modpack:images/slide4.png", "modpack:images/slide5.png", "modpack:images/slide6.png", "modpack:images/slide7.png", "modpack:images/slide8.png", "modpack:images/slide9.png", "modpack:images/slide10.png", "modpack:images/slide11.png", "modpack:images/slide12.png", "modpack:images/slide13.png", "modpack:images/slide14.png", "modpack:images/slide15.png", "modpack:images/slide16.png", "modpack:images/slide17.png", "modpack:images/slide18.png", "modpack:images/slide19.png", "modpack:images/slide20.png", "modpack:images/slide21.png", "modpack:images/slide22.png", "modpack:images/slide23.png"], 
+				"displayDuration" : 100,
+				"fadeDuration" : 40,
+				"shuffle" : true
+			}
+        }
+    }
+}
