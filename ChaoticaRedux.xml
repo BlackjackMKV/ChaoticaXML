@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="http://files.mcupdater.com/official_packs/ServerPackv2.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.2b" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.2c" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2765">forge</Import>
 		<Module name="AE2 Stuff" id="ae2stuff" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download</URL>
@@ -1950,175 +1950,175 @@ All the users of UniDict.</credits>
 			<MD5>51141e882f96ce756b9b3d25f2acdf57</MD5>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide1.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide1.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide2.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide2.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide3.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide3.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide4.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide4.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide5.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide5.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide6.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide6.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide7.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide7.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide8.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide8.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide9.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide9.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide10.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide10.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide11.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide11.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide12.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide12.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide13.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide13.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide14.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide14.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide15.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide15.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide16.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide16.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide17.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide17.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide18.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide18.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide19.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide19.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide20.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide20.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide21.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide21.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide22.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide22.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/images/slide23.png</URL>
-				<Path>resources\modpack\images\</Path>
+				<Path>resources\modpack\images\slide23.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/text/splashtext.txt</URL>
-				<Path>resources\modpack\text\</Path>
+				<Path>resources\modpack\text\splashtext.txt</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/textures/languagebutton.png</URL>
-				<Path>resources\modpack\textures\</Path>
+				<Path>resources\modpack\textures\languagebutton.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/textures/mediumbutton.png</URL>
-				<Path>resources\modpack\textures\</Path>
+				<Path>resources\modpack\textures\mediumbutton.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/textures/refreshbutton.png</URL>
-				<Path>resources\modpack\textures\</Path>
+				<Path>resources\modpack\textures\refreshbutton.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/textures/smallbutton.png</URL>
-				<Path>resources\modpack\textures\</Path>
+				<Path>resources\modpack\textures\smallbutton.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://raw.githubusercontent.com/BlackjackMKV/ChaoticaXML/master/menu/modpack/textures/title.png</URL>
-				<Path>resources\modpack\textures\</Path>
+				<Path>resources\modpack\textures\title.png</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5></MD5>
 			</ConfigFile>
