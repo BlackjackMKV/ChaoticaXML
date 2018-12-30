@@ -2123,5 +2123,43 @@ All the users of UniDict.</credits>
 				<MD5></MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="ender-storage-1-8" id="ender-storage-1-8" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2594243/download</URL>
+			<Curse project="ender-storage-1-8" file="2594243" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d7d6b1991449110cfa7b1844b5811f75</MD5>
+		</Module>
+		<Module name="health-and-hunger-tweaks" id="health-and-hunger-tweaks" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/health-and-hunger-tweaks/files/2474492/download</URL>
+			<Curse project="health-and-hunger-tweaks" file="2474492" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9a0efa9d58d00750b04fc4acb32c698c</MD5>
+		</Module>
+		<Module name="enderpay" id="enderpay" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/enderpay/files/2517377/download</URL>
+			<Curse project="enderpay" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+		</Module>
+		<Module name="stacksize" id="stacksize" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/stacksize/files/2511850/download</URL>
+			<Curse project="stacksize" file="2511850" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2a1791093e5c33ce868313ef3b617b7d</MD5>
+		</Module>
+		<Module name="extreme-reactors" id="extreme-reactors" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/extreme-reactors/files/2648892/download</URL>
+			<Curse project="extreme-reactors" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+		</Module>
 	</Server>
 </ServerPack>
