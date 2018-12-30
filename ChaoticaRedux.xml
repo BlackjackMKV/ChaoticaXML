@@ -2145,6 +2145,7 @@ All the users of UniDict.</credits>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
+      <MD5>da3976863f343c265db5d735f65b1d71</MD5>
 		</Module>
 		<Module name="stacksize" id="stacksize" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/stacksize/files/2511850/download</URL>
@@ -2160,6 +2161,7 @@ All the users of UniDict.</credits>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
+      <MD5>35b0473d3abddf97d18f3c4c5b7c3d12</MD5>
 		</Module>
 		<Module name="zerocore" id="zerocore" depends="" side="BOTH">
 			<URL priority="0">https://edge.forgecdn.net/files/2648/891/zerocore-1.12-0.1.2.3.jar</URL>
@@ -2167,6 +2169,7 @@ All the users of UniDict.</credits>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
+      <MD5>c722d9453011b60eaa898c658e04020a</MD5>
 		</Module>
 		<Module name="applecore" id="applecore" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/applecore/files/2605923/download</URL>
