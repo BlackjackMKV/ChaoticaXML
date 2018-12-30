@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="http://files.mcupdater.com/official_packs/ServerPackv2.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.3" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2765">forge</Import>
+	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.3a" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2768">forge</Import>
 		<Module name="AE2 Stuff" id="ae2stuff" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download</URL>
 			<Size>513374</Size>
@@ -1155,14 +1155,14 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
-			<URL priority="0">https://addons.cursecdn.com/files/2540/146/OpenComputers-MC1.12.2-1.7.2.67.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/opencomputers/files/2638675/download</URL>
 			<Size>15316083</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>45ee059c7e7a4c5ff9e9662f82a9c523</MD5>
+			<MD5>b1e97791a68d025a1322e40a7ab9614b</MD5>
 			<Meta>
-				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
 				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
+				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
 				<version>1.7.2.67</version>
 				<url>http://oc.cil.li/</url>
 				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
@@ -2167,6 +2167,14 @@ All the users of UniDict.</credits>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
+		</Module>
+		<Module name="applecore" id="applecore" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/applecore/files/2605923/download</URL>
+			<Curse project="applecore" file="2605923" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>94ce127bf0586f0335aa3b4191a2d9d6</MD5>
 		</Module>
 	</Server>
 </ServerPack>
