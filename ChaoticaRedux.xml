@@ -2147,20 +2147,6 @@ All the users of UniDict.</credits>
 			<ModType>Regular</ModType>
 			<MD5>2a1791093e5c33ce868313ef3b617b7d</MD5>
 		</Module>
-		<Module name="extreme-reactors" id="extreme-reactors" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/2648/892/ExtremeReactors-1.12.2-0.4.5.50.jar</URL>
-			<Curse project="extreme-reactors" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-		</Module>
-		<Module name="zerocore" id="zerocore" depends="" side="BOTH">
-			<URL priority="0">https://edge.forgecdn.net/files/2648/891/zerocore-1.12-0.1.2.3.jar</URL>
-			<Curse project="zerocore" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-		</Module>
 		<Module name="applecore" id="applecore" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/applecore/files/2605923/download</URL>
 			<Curse project="applecore" file="2605923" type="RELEASE" autoupgrade="false"/>
