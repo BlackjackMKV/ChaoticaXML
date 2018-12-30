@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="http://files.mcupdater.com/official_packs/ServerPackv2.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.3a" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2768">forge</Import>
+	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.3b" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2768">forge</Import>
 		<Module name="AE2 Stuff" id="ae2stuff" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download</URL>
 			<Size>513374</Size>
@@ -2140,7 +2140,7 @@ All the users of UniDict.</credits>
 			<MD5>9a0efa9d58d00750b04fc4acb32c698c</MD5>
 		</Module>
 		<Module name="enderpay" id="enderpay" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/enderpay/files/2517377/download</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/2517/377/enderpay-1.12.2-1.0.1.0.jar</URL>
 			<Curse project="enderpay" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
@@ -2155,14 +2155,14 @@ All the users of UniDict.</credits>
 			<MD5>2a1791093e5c33ce868313ef3b617b7d</MD5>
 		</Module>
 		<Module name="extreme-reactors" id="extreme-reactors" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/extreme-reactors/files/2648892/download</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/2648/892/ExtremeReactors-1.12.2-0.4.5.50.jar</URL>
 			<Curse project="extreme-reactors" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 		</Module>
 		<Module name="zerocore" id="zerocore" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/zerocore/files/2648891/download</URL>
+			<URL priority="0">https://edge.forgecdn.net/files/2648/891/zerocore-1.12-0.1.2.3.jar</URL>
 			<Curse project="zerocore" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
