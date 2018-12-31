@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="http://files.mcupdater.com/official_packs/ServerPackv2.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.3e" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2765">forge</Import>
 		<Module name="AE2 Stuff" id="ae2stuff" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download</URL>
@@ -378,28 +378,28 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/cofhcore/download/2586247/file</URL>
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/cofhcore/download/2623990/file</URL>
 			<Size>838208</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>6670912dc337991f2845001907212a2d</MD5>
 			<Meta>
-				<credits>Team CoFH</credits>
 				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
+				<credits>Team CoFH</credits>
 				<version>4.5.3.20</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
 		</Module>
 		<Module name="CoFH World" id="cofhworld" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/cofh-world/files/2623091/download</URL>
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/cofh-world/download/2623091/file</URL>
 			<Size>531831</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>c62ac9be4542047c31d847a80d3955ea</MD5>
 			<Meta>
-				<credits>Team CoFH</credits>
 				<description>Provides advanced and highly customizable world generation capabilities.</description>
+				<credits>Team CoFH</credits>
 				<version>1.3.0.6</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
@@ -1161,8 +1161,8 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<ModType>Regular</ModType>
 			<MD5>b1e97791a68d025a1322e40a7ab9614b</MD5>
 			<Meta>
-				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
 				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
+				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
 				<version>1.7.2.67</version>
 				<url>http://oc.cil.li/</url>
 				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
@@ -1433,14 +1433,14 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
-			<URL priority="0">https://addons.cursecdn.com/files/2567/260/RedstoneFlux-1.12-2.0.2.3-universal.jar</URL>
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/redstone-flux/download/2623090/file</URL>
 			<Size>35219</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>0d15cc1e59c8028cf17f6a78bda460dc</MD5>
 			<Meta>
-				<credits>Team CoFH</credits>
 				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
+				<credits>Team CoFH</credits>
 				<version>2.0.2.3</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
@@ -1625,42 +1625,42 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Thermal Dynamics" id="thermaldynamics" depends="" side="BOTH">
-			<URL priority="0">https://addons.cursecdn.com/files/2569/8/ThermalDynamics-1.12.2-2.5.1.14-universal.jar</URL>
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics/download/2624182/file</URL>
 			<Size>758676</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>82d0bf008f5e48a6efca3f7739982351</MD5>
 			<Meta>
-				<credits>Team CoFH</credits>
 				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
+				<credits>Team CoFH</credits>
 				<version>2.5.1.14</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
 		</Module>
 		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
-			<URL priority="0">https://addons.cursecdn.com/files/2567/265/ThermalExpansion-1.12.2-5.5.0.29-universal.jar</URL>
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/thermalexpansion/download/2624855/file</URL>
 			<Size>2342103</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>d2fd230e7ee573974b5964d8647b76df</MD5>
 			<Meta>
-				<credits>Team CoFH</credits>
 				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
+				<credits>Team CoFH</credits>
 				<version>5.5.0.29</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
 		</Module>
 		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
-			<URL priority="0">https://addons.cursecdn.com/files/2567/555/ThermalFoundation-1.12.2-2.5.0.19-universal.jar</URL>
+			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/thermal-foundation/download/2623991/file</URL>
 			<Size>2284786</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>cb0ff0d6af0627792bdaaa23541dcad8</MD5>
 			<Meta>
-				<credits>Team CoFH</credits>
 				<description>The Foundation of a Thermally enhanced world!</description>
+				<credits>Team CoFH</credits>
 				<version>2.5.0.19</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
@@ -2154,6 +2154,38 @@ All the users of UniDict.</credits>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>94ce127bf0586f0335aa3b4191a2d9d6</MD5>
+		</Module>
+		<Module name="thermal-cultivation" id="thermal-cultivation" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thermal-cultivation/files/2623100/download</URL>
+			<Curse project="thermal-cultivation" file="2623100" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4213d621d35ab842e6fc7a097da11df7</MD5>
+		</Module>
+		<Module name="thermal-innovation" id="thermal-innovation" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thermal-innovation/files/2623101/download</URL>
+			<Curse project="thermal-innovation" file="2623101" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1f58da5179da1f21496abda8c959e434</MD5>
+		</Module>
+		<Module name="redstone-arsenal" id="redstone-arsenal" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/redstone-arsenal/files/2624342/download</URL>
+			<Curse project="redstone-arsenal" file="2624342" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>435ccab1f12db187f1f46af32850bc89</MD5>
+		</Module>
+		<Module name="industrial-foregoing" id="industrial-foregoing" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/industrial-foregoing/files/2654053/download</URL>
+			<Curse project="industrial-foregoing" file="2654053" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c87266d892b7c98fa614b7e167f8b464</MD5>
 		</Module>
 	</Server>
 </ServerPack>
