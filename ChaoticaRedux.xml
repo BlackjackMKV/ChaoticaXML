@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="http://files.mcupdater.com/official_packs/ServerPackv2.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.4b" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.4c" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2765">forge</Import>
 		<Module name="AE2 Stuff" id="ae2stuff" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download</URL>
@@ -378,11 +378,11 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/cofhcore/download/2623990/file</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/cofhcore/files/2586247/download</URL>
 			<Size>838208</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>dd6593a086ba969dd3eaeae281f669ff</MD5>
+			<MD5>6670912dc337991f2845001907212a2d</MD5>
 			<Meta>
 				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
 				<credits>Team CoFH</credits>
@@ -1433,11 +1433,11 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/redstone-flux/download/2623090/file</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/redstone-flux/files/2623090/download</URL>
 			<Size>35219</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0d15cc1e59c8028cf17f6a78bda460dc</MD5>
+			<MD5>f00530b437c41a189dbf8a85d0ac40b6</MD5>
 			<Meta>
 				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
 				<credits>Team CoFH</credits>
@@ -1653,11 +1653,11 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
-			<URL priority="0">https://www.curseforge.com/minecraft/mc-mods/thermal-foundation/download/2623991/file</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/thermal-foundation/files/2567555/download</URL>
 			<Size>2284786</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>829163490a6033c0ff833501249a7e63</MD5>
+			<MD5>cb0ff0d6af0627792bdaaa23541dcad8</MD5>
 			<Meta>
 				<description>The Foundation of a Thermally enhanced world!</description>
 				<credits>Team CoFH</credits>
