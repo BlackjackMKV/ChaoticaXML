@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="http://files.mcupdater.com/official_packs/ServerPackv2.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.4a" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2765">forge</Import>
 		<Module name="AE2 Stuff" id="ae2stuff" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download</URL>
@@ -1509,14 +1509,14 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</Meta>
 		</Module>
 		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
-			<URL priority="0">https://addons.cursecdn.com/files/2573/311/Forgelin-1.7.4.jar</URL>
+			<URL priority="0">https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2640952/download</URL>
 			<Size>4595089</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0ab4c2ac9bc3bc2f6c4929b70a7bf7d2</MD5>
+			<MD5>59035365f7af35f599d1c4baade64d8b</MD5>
 			<Meta>
-				<credits>Emberwalker, for the original Forgelin</credits>
 				<description>Kotlin helper library for Forge.</description>
+				<credits>Emberwalker, for the original Forgelin</credits>
 				<version>1.7.4</version>
 				<url>https://github.com/shadowfacts/Forgelin</url>
 				<authors>shadowfacts</authors>
@@ -2186,6 +2186,13 @@ All the users of UniDict.</credits>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>c87266d892b7c98fa614b7e167f8b464</MD5>
+		</Module>
+		<Module name="tesla-core-lib" id="tesla-core-lib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/tesla-core-lib/files/2580052/download</URL>
+			<Curse project="tesla-core-lib" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
 		</Module>
 	</Server>
 </ServerPack>
