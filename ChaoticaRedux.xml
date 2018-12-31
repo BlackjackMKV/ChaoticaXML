@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="http://files.mcupdater.com/official_packs/ServerPackv2.xsl" type="text/xsl" ?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.4a" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="chaoticaredux" abstract="false" name="Chaotica Redux - Official Modpack" newsUrl="runicpony.enjin.com" iconUrl="https://cdn.technicpack.net/platform2/pack-icons/1293023.png?1542354365" version="1.12.2" serverAddress="chaoticaredux.dns04.com:25565" generateList="true" autoConnect="false" revision="1.1.4b" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2765">forge</Import>
 		<Module name="AE2 Stuff" id="ae2stuff" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download</URL>
@@ -382,7 +382,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<Size>838208</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6670912dc337991f2845001907212a2d</MD5>
+			<MD5>dd6593a086ba969dd3eaeae281f669ff</MD5>
 			<Meta>
 				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
 				<credits>Team CoFH</credits>
@@ -1657,7 +1657,7 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			<Size>2284786</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>cb0ff0d6af0627792bdaaa23541dcad8</MD5>
+			<MD5>829163490a6033c0ff833501249a7e63</MD5>
 			<Meta>
 				<description>The Foundation of a Thermally enhanced world!</description>
 				<credits>Team CoFH</credits>
